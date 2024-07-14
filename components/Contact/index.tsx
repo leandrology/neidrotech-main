@@ -132,7 +132,7 @@ const Contact = () => {
 
                   <button
                     aria-label="send message"
-                    className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark"
+                    className="inline-flex items-center gap-2.5 rounded-full bg-red px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-redho dark:bg-btnred"
                   >
                     Send
                     <svg

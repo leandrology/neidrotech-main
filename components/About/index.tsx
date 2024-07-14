@@ -34,11 +34,11 @@ const About = () => {
               <h2 className="relative mb-6 text-section-title font-medium text-black dark:text-white">
                 All About Neidrotech
               </h2>
-              <p>
+              <p className="text-sub-feature">
               Neidrotech wasn't born in a Silicon Valley garage; it started as a spark of frustration. Our founders, a group of passionate tech enthusiasts, were tired of seeing businesses struggle with outdated IT infrastructure and a lack of strategic guidance. They envisioned a world where technology empowered businesses, not hindered them.
               </p>
               <br />
-              <p>
+              <p className="text-sub-feature">
               In 2012, Neidrotech emerged from that spark. With a small team and a big dream, we set out to bridge the gap between cutting-edge technology and real-world business needs. Our focus wasn't just on selling solutions; it was about building partnerships. We believed that by truly understanding a company's unique challenges and goals, we could craft IT strategies that unlocked their full potential.
               </p>
               {/* <div>
@@ -149,10 +149,10 @@ const About = () => {
               className="animate_right md:w-1/2"
             >
               
-              <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
+              <h2 className="relative mb-6 text-faq font-medium text-black dark:text-white">
                 Our Mission
               </h2>
-              <p>
+              <p className="text-sub-feature">
               To deliver top-notch IT solutions that empower businesses to achieve their goals.
               </p>
             </motion.div>
@@ -184,10 +184,10 @@ const About = () => {
               {/* <h1 className="font-medium uppercase text-black dark:text-white">
                 Launch Your SaaS Fast
               </h1> */}
-              <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
+              <h2 className="relative mb-6 text-faq font-medium text-black dark:text-white">
                 Our Vision
               </h2>
-              <p>
+              <p className="text-sub-feature">
               To be the most trusted and innovative BPO IT service provider globally.
               </p>
               {/* <div>
@@ -300,10 +300,10 @@ const About = () => {
               className="animate_right md:w-1/2"
             >
               
-              <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
+              <h2 className="relative mb-6 text-faq font-medium text-black dark:text-white">
                 Our Values
               </h2>
-              <p>
+              <p className="text-sub-feature">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
                 ultricies lacus non fermentum ultrices. Fusce consectetur le.
               </p>

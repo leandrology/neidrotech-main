@@ -37,11 +37,11 @@ const Hero = () => {
                 viewport={{ once: true }}
                 className="animate_left mx-auto"
               >
-              <h1 className="mb-5 pr-12 text-hero text-black dark:text-white xl:pl-15 xl:pb-5">
-                Beyond Vision 
+              <h1 className="mb-5 pr-12 text-hero text-black dark:text-white xl:pl-25 xl:pb-5">
+                Turning Ideas 
               </h1>
               <h1 className="mb-5 pr-12 text-hero text-black dark:text-white xl:pb-10">
-                 Within Reach
+                 Into Reality
               </h1>
               </motion.div>
               <motion.div

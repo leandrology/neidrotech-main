@@ -41,14 +41,14 @@ const Header = () => {
             <Image
               src="/images/logo/logo-dark.png"
               alt="logo"
-              width={119.03}
+              width={150}
               height={30}
               className="hidden w-full dark:block"
             />
             <Image
               src="/images/logo/logo-light.png"
               alt="logo"
-              width={119.03}
+              width={150}
               height={30}
               className="w-full dark:hidden"
             />
@@ -103,7 +103,7 @@ const Header = () => {
           }`}
         >
           <nav>
-            <ul className="flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-10">
+            <ul className="flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-10 uppercase xl:pl-50 text-black dark:text-white">
               {menuData.map((menuItem, key) => (
                 <li key={key} className={menuItem.submenu && "group relative"}>
                   {menuItem.submenu ? (

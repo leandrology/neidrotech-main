@@ -29,10 +29,10 @@ const CTA = () => {
               className="animate_left md:w-[70%] lg:w-1/2"
             >
               <h2 className="mb-4 w-11/12 text-5xl font-medium text-black dark:text-white xl:text-sectiontitle4">
-              Let&apos;s Talk Productivity! Connect with Us and streamline your Workflow.
+              Let&apos;s talk productivity! Connect with us and streamline your workflow.
               </h2>
               <p>
-              Stop Drowning in Tasks, Start Thriving! Partner with Neidrotech for expert guidance and streamline your workflows. Connect today!
+              Stop drowning in tasks and start thriving! Partner with Neidrotech for expert guidance and streamline your workflows. Connect with us today!
               </p>
             </motion.div>
             <motion.div

@@ -46,7 +46,7 @@ const Footer = () => {
                 </a>
 
                 <p className="mb-10 mt-5">
-                Bridging the Gap Between Technology and Your Goals.
+                Bridging the gap between technology and your goals.
                 </p>
 
                 {/* <p className="mb-1.5 text-inter uppercase tracking-[1px]">
@@ -177,7 +177,7 @@ const Footer = () => {
                     Newsletter
                   </h4>
                   <p className="mb-4 w-[100%]">
-                    Subscribe to receive future updates
+                    Subscribe to receive future updates.
                   </p>
 
                   <form action="#">

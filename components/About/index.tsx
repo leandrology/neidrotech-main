@@ -149,7 +149,7 @@ const About = () => {
               className="animate_right md:w-1/2"
             >
               
-              <h2 className="relative mb-6 text-faq font-medium text-black dark:text-white">
+              <h2 className="relative mb-6 text-section-title font-medium text-black dark:text-white">
                 Our Mission
               </h2>
               <p className="text-sub-feature">
@@ -184,7 +184,7 @@ const About = () => {
               {/* <h1 className="font-medium uppercase text-black dark:text-white">
                 Launch Your SaaS Fast
               </h1> */}
-              <h2 className="relative mb-6 text-faq font-medium text-black dark:text-white">
+              <h2 className="relative mb-6 text-section-title font-medium text-black dark:text-white">
                 Our Vision
               </h2>
               <p className="text-sub-feature">
@@ -300,7 +300,7 @@ const About = () => {
               className="animate_right md:w-1/2"
             >
               
-              <h2 className="relative mb-6 text-faq font-medium text-black dark:text-white">
+              <h2 className="relative mb-6 text-section-title font-medium text-black dark:text-white">
                 Our Values
               </h2>
               <p className="text-sub-feature">

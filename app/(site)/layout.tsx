@@ -5,9 +5,9 @@ import Header from "@/components/Header";
 import Lines from "@/components/Lines";
 import ScrollToTop from "@/components/ScrollToTop";
 import { ThemeProvider } from "next-themes";
-import { Poppins } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "../globals.css";
-const inter = Poppins({ subsets: ["devanagari"], weight: ["300", "700"] });
+const inter = Roboto({ subsets: ["latin"], weight: ["400", "300"] });
 
 import ToasterContext from "../context/ToastContext";
 
@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning className="scroll-smooth">
       <body className={`dark:bg-black ${inter.className}`}>
         <ThemeProvider
           enableSystem={false}

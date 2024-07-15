@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Aeonik-Bold"; 
+  src: url("/public/fonts/Aeonik-Bold.ttf") format("truetype");
+}
+
 /* third-party libraries CSS */
 
 .testimonial-01 .swiper-pagination-bullet {
@@ -130,18 +135,21 @@ pre {
 /* MAIN */
 
 .text-hero {
-  font-size: 6vw;
-  line-height: 92px;
+  font-size: 160px;
+  line-height: 135px;
+  font-weight: 600;
+  min-width: max-content;
 }
 
 .text-sub-hero {
   font-size: 1.5vw;
-  line-height: 40px;
+  line-height: 38px;
 }
 
 .text-section-title {
-  font-size: 6vw;
-  line-height: 100px;
+  font-weight: 600;
+  font-size: 7vw;
+  line-height: 125px;
 }
 
 .text-feature-title {
@@ -159,14 +167,16 @@ pre {
 }
 
 .text-fun-fact {
-  font-size: 4vw;
-  line-height: 70px;
+  font-size: 7vw;
+  line-height: 115px;
 }
-
-@media (max-width: 768px) {
+  
+@media (max-width: 1024px) {
   .text-hero {
     font-size: 13vw;
     line-height: 60px;
+    font-weight: 600;
+
   }
 
   .text-sub-hero {

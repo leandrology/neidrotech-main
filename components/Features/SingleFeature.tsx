@@ -32,7 +32,7 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
         <h3 className="mb-5 mt-7.5 text-feature-title text-black dark:text-white">
           {title}
         </h3>
-        <p className="text-sub-feature">{description}</p>
+        <p className="text-sub-feature text-black dark:text-white">{description}</p>
       </motion.div>
     </>
   );

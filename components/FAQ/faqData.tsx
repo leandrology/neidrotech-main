@@ -13,7 +13,7 @@ const faqData: FAQ[] = [
   },
   {
     id: 3,
-    quest: "What are the benefits of partnering with Neidrotech for my IT needs?",
+    quest: "What are the benefits of partnering with us?",
     ans: "Partnering with Neidrotech brings a multitude of benefits to your business. We offer a team of experienced and certified IT professionals who can become your trusted advisors.  We focus on understanding your unique needs and challenges to develop customized solutions that optimize your IT infrastructure and drive business growth. You'll experience improved efficiency, enhanced security, and peace of mind knowing your IT environment is in capable hands.",
   },
 ];

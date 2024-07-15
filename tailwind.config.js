@@ -11,8 +11,9 @@ module.exports = {
   ],
   darkMode: "class",
   theme: {
+    
     fontFamily: {
-      inter: ["Poppins", "sans-serif"],
+      inter: ['"Aeonik-Bold"', "sans-serif"],
     },
     extend: {
       colors: {
@@ -26,7 +27,7 @@ module.exports = {
         titlebgdark: "#46495A",
         btndark: "#292E45",
         white: "#FFFFFF",
-        black: "#181C31",
+        black: "#000000",
         blackho: "#2C3149",
         red: "#d1101d",
         redho: "#b70c17",

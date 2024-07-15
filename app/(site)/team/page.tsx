@@ -16,7 +16,7 @@ const Team = async () => {
           <SectionHeader
             headerInfo={{
               title: "Team",
-              subtitle: "Meet the Team",
+              subtitle: "Meet the team",
               description: `Our diverse team of IT experts combines individual strengths to engineer holistic solutions, ensuring seamless collaboration for your success.`,
             }}
             />

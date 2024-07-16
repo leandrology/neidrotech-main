@@ -303,10 +303,10 @@ const About = () => {
               <h2 className="relative mb-6 text-section-title font-medium text-black dark:text-white">
                 Our Values
               </h2>
-              <p className="text-sub-feature">
+              {/* <p className="text-sub-feature">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
                 ultricies lacus non fermentum ultrices. Fusce consectetur le.
-              </p>
+              </p> */}
 
               <div className="mt-7.5 flex items-center gap-5">
                 <div className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
@@ -315,10 +315,10 @@ const About = () => {
                   </p>
                 </div>
                 <div className="w-3/4">
-                  <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
+                  <h3 className="mb-0.5 text-sub-feature text-black dark:text-white">
                     Commitment to Excellence
                   </h3>
-                  <p>Ut ultricies lacus non fermentum ultrices.</p>
+                  <>We strive for the highest quality in everything we do, from our products and services to our customer interactions. We are relentless in our pursuit of continuous improvement.</>
                 </div>
               </div>
               <div className="mt-7.5 flex items-center gap-5">
@@ -328,10 +328,10 @@ const About = () => {
                   </p>
                 </div>
                 <div className="w-3/4">
-                  <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
+                  <h3 className="mb-0.5 text-sub-feature text-black dark:text-white">
                   Customer Satisfaction
                   </h3>
-                  <p>consectetur adipiscing elit fermentum ultricies.</p>
+                  <p>Your satisfaction is our top priority. We listen to your needs and feedback to ensure we are exceeding your expectations and building lasting relationships.</p>
                 </div>
               </div>
               <div className="mt-7.5 flex items-center gap-5">
@@ -341,10 +341,10 @@ const About = () => {
                   </p>
                 </div>
                 <div className="w-3/4">
-                  <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
+                  <h3 className="mb-0.5 text-sub-feature text-black dark:text-white">
                   Integrity
                   </h3>
-                  <p>Ut ultricies lacus non fermentum ultrices.</p>
+                  <p>We foster a culture of creativity and embrace new ideas. We are constantly looking for ways to improve our offerings and stay ahead of the curve.</p>
                 </div>
               </div>
               <div className="mt-7.5 flex items-center gap-5">
@@ -354,10 +354,10 @@ const About = () => {
                   </p>
                 </div>
                 <div className="w-3/4">
-                  <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
+                  <h3 className="mb-0.5 text-sub-feature text-black dark:text-white">
                   Innovation
                   </h3>
-                  <p>Set ultricies lacus non fermentum ultrices.</p>
+                  <p>We conduct ourselves with honesty, transparency, and ethical behavior in all situations. We hold ourselves accountable to the highest standards.</p>
                 </div>
               </div>
               <div className="mt-7.5 flex items-center gap-5">
@@ -367,10 +367,10 @@ const About = () => {
                   </p>
                 </div>
                 <div className="w-3/4">
-                  <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
+                  <h3 className="mb-0.5 text-sub-feature text-black dark:text-white">
                   Teamwork
                   </h3>
-                  <p>Lorem ultricies lacus non fermentum ultrices.</p>
+                  <p>We believe in the power of collaboration. We work together effectively to achieve our goals, leveraging the diverse strengths and perspectives of our team members.</p>
                 </div>
               </div>
             </motion.div>

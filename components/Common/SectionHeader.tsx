@@ -37,7 +37,7 @@ const SectionHeader = ({ headerInfo }: { headerInfo: HeaderInfo }) => {
             {title}
           </span>
         </div> */}
-        <h2 className="mx-auto mb-4 text-section-title font-medium text-black dark:text-white md:w-4/5 xl:w-5/5 xl:text-section-title">
+        <h2 className="mx-auto mb-4 text-section-title font-medium text-black dark:text-white md:w-4/5 xl:w-full xl:text-section-title">
           {subtitle}
         </h2>
         <p className="mx-auto md:w-4/5 lg:w-3/5 xl:w-[76%] text-sub-hero text-black dark:text-white">{description}</p>

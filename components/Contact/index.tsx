@@ -104,7 +104,7 @@ const Contact = () => {
                       type="checkbox"
                       className="peer sr-only"
                     />
-                    <span className="border-gray-300 bg-gray-100 text-blue-600 dark:border-gray-600 dark:bg-gray-700 group mt-2 flex h-5 min-w-[20px] items-center justify-center rounded peer-checked:bg-primary">
+                    <span className="border-gray-400 bg-gray-400 text-blue-600 dark:border-gray-600 dark:bg-gray-700 group mt-2 flex h-5 min-w-[20px] items-center justify-center rounded peer-checked:bg-primary">
                       <svg
                         className="opacity-0 peer-checked:group-[]:opacity-100"
                         width="10"
@@ -125,8 +125,7 @@ const Contact = () => {
                       htmlFor="default-checkbox"
                       className="flex max-w-[425px] cursor-pointer select-none pl-5"
                     >
-                      By clicking Checkbox, you agree to use our “Form” terms
-                      And consent cookie usage in browser.
+                      By clicking Checkbox, you agree to use our “Form” terms.
                     </label>
                   </div>
 
@@ -177,9 +176,10 @@ const Contact = () => {
 
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
-                  Our Location
+                  Our Locations
                 </h3>
-                <p>Manila, Philippines</p>
+                <p className="py-2">Twin Oaks Place Tower 1 40-M 750 Shaw Blvd, Mandaluyong, 1554 Metro Manila</p>
+                <p className="py-2">24 Stella Maris Ave, Maybunga, Pasig, 1607 Metro Manila</p>
               </div>
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
@@ -194,7 +194,7 @@ const Contact = () => {
                   Phone Number
                 </h4>
                 <p>
-                  <a href="#">+63 912 345 6789</a>
+                  <a href="#">+63 966 613 7344</a>
                 </p>
               </div>
             </motion.div>

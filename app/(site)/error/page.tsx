@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Error - Neidrotech",
-  description: "This is Error page for Neidrotech",
+  title: "Error - Niedrotech",
+  description: "This is Error page for Niedrotech",
   // other metadata
 };
 

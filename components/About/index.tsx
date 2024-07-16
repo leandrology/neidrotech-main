@@ -32,14 +32,14 @@ const About = () => {
                 Launch Your SaaS Fast
               </h1> */}
               <h2 className="relative mb-6 text-section-title font-medium text-black dark:text-white">
-                All About Neidrotech
+                All About Niedrotech
               </h2>
               <p className="text-sub-feature">
-              Neidrotech wasn't born in a Silicon Valley garage; it started as a spark of frustration. Our founders, a group of passionate tech enthusiasts, were tired of seeing businesses struggle with outdated IT infrastructure and a lack of strategic guidance. They envisioned a world where technology empowered businesses, not hindered them.
+              Niedrotech wasn't born in a Silicon Valley garage; it started as a spark of frustration. Our founders, a group of passionate tech enthusiasts, were tired of seeing businesses struggle with outdated IT infrastructure and a lack of strategic guidance. They envisioned a world where technology empowered businesses, not hindered them.
               </p>
               <br />
               <p className="text-sub-feature">
-              In 2012, Neidrotech emerged from that spark. With a small team and a big dream, we set out to bridge the gap between cutting-edge technology and real-world business needs. Our focus wasn't just on selling solutions; it was about building partnerships. We believed that by truly understanding a company's unique challenges and goals, we could craft IT strategies that unlocked their full potential.
+              In 2012, Niedrotech emerged from that spark. With a small team and a big dream, we set out to bridge the gap between cutting-edge technology and real-world business needs. Our focus wasn't just on selling solutions; it was about building partnerships. We believed that by truly understanding a company's unique challenges and goals, we could craft IT strategies that unlocked their full potential.
               </p>
               {/* <div>
                 <a

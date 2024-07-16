@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import SectionHeader from "@/components/Common/SectionHeader";
 import Image from "next/image";
 export const metadata: Metadata = {
-  title: "Our Team - Neidrotech",
-  description: "This is the Team page for Neidrotech",
+  title: "Our Team - Niedrotech",
+  description: "This is the Team page for Niedrotech",
   // other metadata
 };
 

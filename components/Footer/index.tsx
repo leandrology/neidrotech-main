@@ -56,7 +56,7 @@ const Footer = () => {
                   href="#"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  hello@neidrotech.com
+                  hello@niedrotech.com
                 </a> */}
               </motion.div>
 
@@ -275,7 +275,7 @@ const Footer = () => {
               className="animate_top"
             >
               <p>
-                &copy; {new Date().getFullYear()} Neidrotech. All rights reserved
+                &copy; {new Date().getFullYear()} Niedrotech. All rights reserved
               </p>
             </motion.div>
 

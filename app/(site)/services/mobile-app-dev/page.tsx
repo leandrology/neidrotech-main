@@ -4,8 +4,8 @@ import { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Mobile App Development - Neidrotech",
-  description: "This is Mobile App page for Neidrotech",
+  title: "Mobile App Development - Niedrotech",
+  description: "This is Mobile App page for Niedrotech",
   // other metadata
 };
 

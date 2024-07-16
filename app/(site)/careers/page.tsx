@@ -4,8 +4,8 @@ import { Metadata } from "next";
 import SectionHeader from "@/components/Common/SectionHeader";
 
 export const metadata: Metadata = {
-  title: "Careers - Neidrotech",
-  description: "This is careers page for Neidrotech",
+  title: "Careers - Niedrotech",
+  description: "This is careers page for Niedrotech",
   // other metadata
 };
 
@@ -19,7 +19,7 @@ const Careers = async () => {
             <SectionHeader
               headerInfo={{
                 title: "Careers",
-                subtitle: "Launch your IT Career at Neidrotech",
+                subtitle: "Launch your IT Career at Niedrotech",
                 description: `Explore our diverse opportunities and discover how you can shape the future alongside our team of passionate experts.`,
               }}
               />

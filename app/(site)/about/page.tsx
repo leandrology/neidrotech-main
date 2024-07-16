@@ -2,8 +2,8 @@ import About from "@/components/About";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Us - Neidrotech",
-  description: "This is the About page for Neidrotech",
+  title: "About Us - Niedrotech",
+  description: "This is the About page for Niedrotech",
   // other metadata
 };
 

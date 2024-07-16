@@ -3,8 +3,8 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Us - Neidrotech",
-  description: "This is contact page for Neidrotech",
+  title: "Contact Us - Niedrotech",
+  description: "This is contact page for Niedrotech",
   // other metadata
 };
 

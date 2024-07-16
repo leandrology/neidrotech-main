@@ -4,8 +4,8 @@ import { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Web Development - Neidrotech",
-  description: "This is Web Development page for Neidrotech",
+  title: "Web Development - Niedrotech",
+  description: "This is Web Development page for Niedrotech",
   // other metadata
 };
 

@@ -3,8 +3,8 @@ import BlogItem from "@/components/Blog/BlogItem";
 import { Metadata } from "next";
 import SectionHeader from "@/components/Common/SectionHeader";
 export const metadata: Metadata = {
-  title: "Blogs - Neidrotech",
-  description: "This is Blog page for Neidrotech",
+  title: "Blogs - Niedrotech",
+  description: "This is Blog page for Niedrotech",
   // other metadata
 };
 

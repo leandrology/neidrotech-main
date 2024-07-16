@@ -32,7 +32,7 @@ const CTA = () => {
               Let&apos;s talk productivity! Connect with us and streamline your workflow.
               </h2>
               <p>
-              Stop drowning in tasks and start thriving! Partner with Neidrotech for expert guidance and streamline your workflows. Connect with us today!
+              Stop drowning in tasks and start thriving! Partner with Niedrotech for expert guidance and streamline your workflows. Connect with us today!
               </p>
             </motion.div>
             <motion.div

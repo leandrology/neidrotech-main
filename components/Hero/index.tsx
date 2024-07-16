@@ -17,7 +17,7 @@ const Hero = () => {
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">
               {/* <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white">
-                 Neidrotech - Your trusted IT partner
+                 Niedrotech - Your trusted IT partner
               </h4> */}
               <motion.div
                 variants={{
@@ -63,7 +63,7 @@ const Hero = () => {
                 className="animate_top mx-auto"
               >
               <p className="text-sub-hero text-black dark:text-white">
-              Neidrotech is your digital partner, transforming ideas into captivating visuals and interactive experiences. Our team of skilled designers and developers collaborates closely to solve complex challenges, crafting unique solutions that exceed expectations and keep audiences engaged.
+              Niedrotech is your digital partner, transforming ideas into captivating visuals and interactive experiences. Our team of skilled designers and developers collaborates closely to solve complex challenges, crafting unique solutions that exceed expectations and keep audiences engaged.
               </p>
               </motion.div>
               <div className="mt-10 items-center justify-center w-1/2">

@@ -14,8 +14,8 @@ import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
 
 export const metadata: Metadata = {
-  title: "Neidrotech",
-  description: "This is Home page of Neidrotech",
+  title: "Niedrotech",
+  description: "This is Home page of Niedrotech",
   // other metadata
 };
 

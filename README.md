@@ -1,6 +1,6 @@
-# Neidrotech
+# Niedrotech
 
-This is the code repository for the Neidrotech, built with Next.js and Tailwind CSS.
+This is the code repository for the Niedrotech, built with Next.js and Tailwind CSS.
 
 ## Prerequisites
 
@@ -12,7 +12,7 @@ This is the code repository for the Neidrotech, built with Next.js and Tailwind 
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/leandrology/neidrotech-main.git
+   git clone https://github.com/leandrology/niedrotech-main.git
 
 2. Navigate to the project directory:
 

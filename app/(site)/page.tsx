@@ -33,7 +33,7 @@ export default function Home() {
       {/* <Integration /> */}
       <Testimonial />
       {/* <Pricing /> */}
-      <Blog />
+      {/* <Blog /> */}
       {/* <Contact /> */}
       <FAQ />
       <CTA />

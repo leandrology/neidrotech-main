@@ -37,11 +37,11 @@ const Hero = () => {
                 viewport={{ once: true }}
                 className="animate_left mx-auto"
               >
-              <h1 className="mb-5 pr-12 text-hero text-black dark:text-white xl:pl-25 xl:pb-5">
-                Turning Ideas 
+              <h1 className="mb-5 pr-12 text-hero text-black dark:text-white xl:pl-60 xl:pb-5">
+                Innovation 
               </h1>
               <h1 className="mb-5 pr-12 text-hero text-black dark:text-white xl:pb-10">
-                 Into Reality
+                Fuels Future
               </h1>
               </motion.div>
               <motion.div
@@ -63,7 +63,7 @@ const Hero = () => {
                 className="animate_top mx-auto"
               >
               <p className="text-sub-hero text-black dark:text-white">
-              Niedrotech is your digital partner, transforming ideas into captivating visuals and interactive experiences. Our team of skilled designers and developers collaborates closely to solve complex challenges, crafting unique solutions that exceed expectations and keep audiences engaged.
+              Niedrotech connects innovative companies with their dream team. We leverage cutting-edge technology and a human-focused approach to supercharge your success.
               </p>
               </motion.div>
               <div className="mt-10 items-center justify-center w-1/2">

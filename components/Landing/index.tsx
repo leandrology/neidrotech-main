@@ -9,7 +9,7 @@ const Landing = () => {
     <>
       {/* <!-- ===== Funfact Start ===== --> */}
       <section className="px-4 pb-0 md:px-8 lg:py-22.5 2xl:px-0">
-        <h1 className="text-center mt-10 text-sub-hero-xl pb-10 w-4/5 xl:w-3/5 mx-auto text-black dark:text-white">We turn brands into digital powerhouses by creating experiences that resonate with their customers</h1>
+        <h1 className="text-center mt-10 text-sub-hero-xl pb-10 w-full xl:w-3/5 mx-auto text-black dark:text-white">We offer outsourcing solutions for businesses seeking high-caliber, culturally aligned offshore talent.</h1>
         {/* <div className="relative z-1 mx-auto max-w-c-1390 rounded-lg bg-gradient-to-t from-[#F8F9FF] to-[#DEE7FF] py-22.5 dark:bg-blacksection dark:bg-gradient-to-t dark:from-transparent dark:to-transparent dark:stroke-strokedark xl:py-27.5"> */}
           {/* <Image
             width={335}

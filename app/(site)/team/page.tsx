@@ -127,14 +127,14 @@ const Team = async () => {
                       height={200}
                       className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
                       src="/images/team/placeholder.png"
-                      alt="Jese Avatar"
+                      alt="Alan Perillo"
                     />
                   </a>
                   <div className="p-5">
                     <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                       <a href="#">Alan Perillo</a>
                     </h3>
-                    <span className="text-gray-500 dark:text-gray-400">CTO</span>
+                    <span className="text-gray-500 dark:text-gray-400">Chairman & CTO</span>
                     <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
                       Alan spearheads Niedrotech's technological innovations, overseeing IT infrastructure and implementing 
                       cutting-edge solutions to enhance operational efficiency and client services.

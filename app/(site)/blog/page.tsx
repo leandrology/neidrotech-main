@@ -19,6 +19,7 @@ const BlogPage = async () => {
               headerInfo={{
                 title: "Blog",
                 subtitle: "Dive Deep into Tech Trends",
+                subtitle2: "",
                 description:
                   "Explore cutting-edge advancements, practical solutions, and expert analysis on the latest trends shaping the IT landscape.  Our blog is your one-stop shop for valuable insights and thought-provoking discussions.",
               }}

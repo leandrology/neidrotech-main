@@ -28,9 +28,9 @@ const CTA = () => {
               viewport={{ once: true }}
               className="animate_left md:w-[70%] lg:w-1/2"
             >
-              <h2 className="mb-4 w-11/12 text-5xl font-medium text-black dark:text-white xl:text-sectiontitle4">
+              <h1 className="mb-4 w-11/12 text-5xl font-medium text-black dark:text-white xl:text-sectiontitle4">
               Let&apos;s talk productivity! Connect with us and streamline your workflow.
-              </h2>
+              </h1>
               <p>
               Stop drowning in tasks and start thriving! Partner with Niedrotech for expert guidance and streamline your workflows. Connect with us today!
               </p>

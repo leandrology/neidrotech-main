@@ -16,6 +16,7 @@ const Services = async () => {
             headerInfo={{
               title: `BLOGS`,
               subtitle: `Latest News & Blogs`,
+              subtitle2: "",
               description: `Discover thought-leading news & blogs shaping the Future of IT.`,
             }}
           />

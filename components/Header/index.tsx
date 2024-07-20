@@ -103,7 +103,7 @@ const Header = () => {
           }`}
         >
           <nav>
-            <ul className="flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-10 uppercase xl:pl-50 text-black dark:text-white">
+            <ul className="flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-10 xl:pl-50 text-lg font-bold uppercase font-size-16 text-black dark:text-white">
               {menuData.map((menuItem, key) => (
                 <li key={key} className={menuItem.submenu && "group relative"}>
                   {menuItem.submenu ? (

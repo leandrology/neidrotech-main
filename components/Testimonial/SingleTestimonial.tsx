@@ -10,12 +10,12 @@ const SingleTestimonial = ({ review }: { review: Testimonial }) => {
           <h3 className="mb-1.5 text-metatitle3 text-black dark:text-white">
             {name}
           </h3>
-          <p>{designation}</p>
+          <p className="text-black dark:text-white">{designation}</p>
         </div>
         <Image width={60} height={50} className="" src={image} alt={name} />
       </div>
 
-      <p>{content}</p>
+      <p className="text-black dark:text-white italic">❝{content}❞</p>
     </div>
   );
 };

@@ -22,6 +22,7 @@ const Testimonial = () => {
               headerInfo={{
                 title: `TESTIMONIALS`,
                 subtitle: `Client’s Testimonials`,
+                subtitle2: "",
                 description: `Discover how Niedrotech has earned the trust of our clients. Read authentic testimonials highlighting the value we bring to their businesses.`,
               }}
             />

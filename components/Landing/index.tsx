@@ -2,15 +2,17 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-
+import SplineImage from "../Spline";
 const Landing = () => {
 
   return (
     <>
       {/* <!-- ===== Funfact Start ===== --> */}
       <section className="px-4 pb-0 md:px-8 lg:py-22.5 2xl:px-0">
-        <h1 className="text-center mt-10 text-sub-hero-xl pb-10 w-full xl:w-3/5 mx-auto text-black dark:text-white">We offer outsourcing solutions for businesses seeking high-caliber, culturally aligned offshore talent.</h1>
-        {/* <div className="relative z-1 mx-auto max-w-c-1390 rounded-lg bg-gradient-to-t from-[#F8F9FF] to-[#DEE7FF] py-22.5 dark:bg-blacksection dark:bg-gradient-to-t dark:from-transparent dark:to-transparent dark:stroke-strokedark xl:py-27.5"> */}
+        <h1 className="text-center mt-5 text-sub-hero-xl pb-5 w-full xl:w-3/5 mx-auto text-black dark:text-white">We offer outsourcing solutions for businesses seeking high-caliber, culturally aligned offshore talent.</h1>
+        <div className="z-1 mx-auto max-w-[1365px] cursor-pointer rounded-lg spline-container">
+          <SplineImage />
+        </div>
           {/* <Image
             width={335}
             height={384}
@@ -18,11 +20,12 @@ const Landing = () => {
             alt="Man"
             className="absolute -left-15 -top-25 -z-1 lg:left-0"
           /> */}
-            <video src="/video/video_bg.mp4"
+            {/* <video src="/video/video_bg.mp4"
              autoPlay 
              loop 
-             muted 
-            className="object-cover rounded-lg relative mx-auto max-w-sm md:max-w-screen-md 2xl:max-w-6xl xl:max-l-4xl -z-1 lg:left-0"></video>
+             muted
+             playsInline
+            className="object-cover rounded-lg relative mx-auto max-w-sm md:max-w-screen-md 2xl:max-w-6xl xl:max-l-4xl -z-1 lg:left-0"></video> */}
           {/* <Image
             src="/images/hero/hero-image.jpg" // Replace with your image path
             alt="Hero Image"

@@ -26,7 +26,7 @@
 
 @layer base {
   body {
-    @apply relative z-1 font-inter text-regular font-normal text-waterloo dark:text-manatee;
+    @apply relative z-1 text-regular font-normal text-waterloo dark:text-manatee;
   }
 }
 
@@ -150,7 +150,7 @@ pre {
 .text-hero {
   font-size: 160px;
   line-height: 135px;
-  font-weight: 600;
+  font-weight: 400;
   min-width: max-content;
 }
 
@@ -165,8 +165,8 @@ pre {
 }
 
 .text-section-title {
-  font-weight: 600;
-  font-size: 7vw;
+  font-weight: 400;
+  font-size: 6vw;
   line-height: 125px;
 }
 
@@ -200,7 +200,7 @@ pre {
   .text-hero {
     font-size: 13vw;
     line-height: 60px;
-    font-weight: 600;
+    font-weight: 400;
   }
 
   .text-sub-hero {
@@ -216,7 +216,7 @@ pre {
 
   .text-section-title {
     font-size: 10vw;
-    line-height: 40px;
+    line-height: 60px;
   }
 
   .text-feature-title {
@@ -235,5 +235,9 @@ pre {
   .text-fun-fact {
     font-size: 10vw;
     line-height: 40px;
+  }
+
+  .spline-container {
+    max-width: 1390px;
   }
 }

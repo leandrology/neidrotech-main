@@ -14,7 +14,8 @@ const Feature = () => {
           <SectionHeader
             headerInfo={{
               title: "FEATURES",
-              subtitle: "Our Core Features",
+              subtitle: "Global Remote",
+              subtitle2: "Talent Leader",
               description: `Dive deeper than traditional IT solutions. Our feature set offers cutting-edge tools for automation, cloud management, and data analytics, empowering your business to thrive.`,
             }}
           />

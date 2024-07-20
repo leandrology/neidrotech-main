@@ -17,7 +17,8 @@ const Team = async () => {
             headerInfo={{
               title: "Team",
               subtitle: "Meet the team",
-              description: `Our diverse team of IT experts combines individual strengths to engineer holistic solutions, ensuring seamless collaboration for your success.`,
+              subtitle2: "",
+              description: `Our diverse team combines individual strengths to engineer holistic solutions, ensuring seamless collaboration for your success.`,
             }}
             />
           </div>
@@ -29,20 +30,19 @@ const Team = async () => {
                       width={200}
                       height={200}
                       className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
-                      src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
-                      alt="Bonnie Avatar"
+                      src="/images/team/placeholder.png"
+                      alt="Joe Ceriola"
                     />
                   </a>
                   <div className="p-5">
                     <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      <a href="#">Bonnie Green</a>
+                      <a href="#">Joe Ceriola</a>
                     </h3>
                     <span className="text-gray-500 dark:text-gray-400">
-                      CEO & Web Developer
+                      President & CEO
                     </span>
                     <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
-                      Bonnie drives the technical strategy of the flowbite platform
-                      and brand.
+                      Joe leads Niedrotech's strategic vision, driving innovation and growth in the BPO industry while fostering a culture of excellence and client satisfaction.
                     </p>
                     <ul className="flex space-x-4 sm:mt-0">
                       <li>
@@ -126,18 +126,18 @@ const Team = async () => {
                       width={200}
                       height={200}
                       className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
-                      src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
+                      src="/images/team/placeholder.png"
                       alt="Jese Avatar"
                     />
                   </a>
                   <div className="p-5">
                     <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      <a href="#">Jese Leos</a>
+                      <a href="#">Alan Perillo</a>
                     </h3>
                     <span className="text-gray-500 dark:text-gray-400">CTO</span>
                     <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
-                      Jese drives the technical strategy of the flowbite platform
-                      and brand.
+                      Alan spearheads Niedrotech's technological innovations, overseeing IT infrastructure and implementing 
+                      cutting-edge solutions to enhance operational efficiency and client services.
                     </p>
                     <ul className="flex space-x-4 sm:mt-0">
                       <li>
@@ -221,20 +221,20 @@ const Team = async () => {
                       width={200}
                       height={200}
                       className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
-                      src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png"
+                      src="/images/team/placeholder.png"
                       alt="Michael Avatar"
                     />
                   </a>
                   <div className="p-5">
                     <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      <a href="#">Michael Gough</a>
+                      <a href="#">Leander Josh</a>
                     </h3>
                     <span className="text-gray-500 dark:text-gray-400">
-                      Senior Front-end Developer
+                      Technical Director
                     </span>
                     <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
-                      Michael drives the technical strategy of the flowbite platform
-                      and brand.
+                      Leander oversees Niedrotech's technical operations, ensuring seamless service delivery and 
+                      implementing advanced systems to meet evolving client needs and industry standards.
                     </p>
                     <ul className="flex space-x-4 sm:mt-0">
                       <li>
@@ -318,20 +318,20 @@ const Team = async () => {
                       width={200}
                       height={200}
                       className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
-                      src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/sofia-mcguire.png"
-                      alt="Sofia Avatar"
+                      src="/images/team/placeholder.png"
+                      alt="placeholder"
                     />
                   </a>
                   <div className="p-5">
                     <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      <a href="#">Lana Byrd</a>
+                      <a href="#">Ge Malasig</a>
                     </h3>
                     <span className="text-gray-500 dark:text-gray-400">
-                      Marketing & Sale
+                      Managing Director
                     </span>
                     <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
-                      Lana drives the technical strategy of the flowbite platform
-                      and brand.
+                      Ge orchestrates Niedrotech's daily operations, aligning business strategies with client 
+                      objectives to drive sustainable growth and operational excellence across all departments.
                     </p>
                     <ul className="flex space-x-4 sm:mt-0">
                       <li>

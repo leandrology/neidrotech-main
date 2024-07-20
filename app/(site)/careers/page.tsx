@@ -19,7 +19,8 @@ const Careers = async () => {
             <SectionHeader
               headerInfo={{
                 title: "Careers",
-                subtitle: "Launch your IT Career at Niedrotech",
+                subtitle: "Ignite your career with Niedrotech",
+                subtitle2: "",
                 description: `Explore our diverse opportunities and discover how you can shape the future alongside our team of passionate experts.`,
               }}
               />

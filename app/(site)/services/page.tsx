@@ -20,6 +20,7 @@ const Services = async () => {
             headerInfo={{
               title: "Services",
               subtitle: "Empower your Business with Powerful IT Solutions",
+              subtitle2: "",
               description: `Our comprehensive suite of services is designed to streamline your IT operations, enhance security, and empower your team to achieve their full potential. Let Niedrotech be your trusted partner on your journey to digital success.`,
             }}
             />

@@ -12,16 +12,17 @@ module.exports = {
   darkMode: "class",
   theme: {
     
+    // inter: ['"Aeonik-Bold"', "sans-serif"],
     fontFamily: {
-      inter: ['"Aeonik-Bold"', "sans-serif"],
+      Aeonik: ["var(--font-Aeonik)"],
     },
     extend: {
       colors: {
         current: "currentColor",
         transparent: "transparent",
         stroke: "#b2b2b2",
-        strokedark: "#2D2F40",
-        hoverdark: "#252A42",
+        strokedark: "#171717",
+        hoverdark: "#171717",
         titlebg: "#ADFFF8",
         titlebg2: "#FFEAC2",
         titlebgdark: "#46495A",
@@ -31,7 +32,7 @@ module.exports = {
         blackho: "#2C3149",
         red: "#d1101d",
         redho: "#b70c17",
-        blacksection: "#1C2136",
+        blacksection: "#141414",
         // primary: "#006BFF",
         // primaryho: "#0063EC",
         primary: "#ff4255",

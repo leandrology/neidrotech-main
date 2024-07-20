@@ -5,10 +5,11 @@ type HeaderInfo = {
   title: string;
   subtitle: string;
   description: string;
+  subtitle2: string;
 };
 
 const SectionHeader = ({ headerInfo }: { headerInfo: HeaderInfo }) => {
-  const { title, subtitle, description } = headerInfo;
+  const { title, subtitle, subtitle2, description } = headerInfo;
 
   return (
     <div>
@@ -38,7 +39,10 @@ const SectionHeader = ({ headerInfo }: { headerInfo: HeaderInfo }) => {
           </span>
         </div> */}
         <h2 className="mx-auto mb-4 text-section-title font-medium text-black dark:text-white md:w-4/5 xl:w-full xl:text-section-title">
-          {subtitle}
+          {subtitle} 
+        </h2>
+        <h2 className="mx-auto mb-4 text-section-title font-medium text-black dark:text-white md:w-4/5 xl:w-full xl:text-section-title">
+          {subtitle2}
         </h2>
         <p className="mx-auto md:w-4/5 lg:w-3/5 xl:w-[76%] text-sub-hero text-black dark:text-white">{description}</p>
       </motion.div>

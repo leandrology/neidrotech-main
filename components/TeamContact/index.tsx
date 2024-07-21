@@ -5,8 +5,6 @@ import Link from "next/link";
 import React from "react";
 
 const TeamContact = () => {
-
-
   return (
     <>
       <section id="support" className="px-4 md:px-8 2xl:px-0">
@@ -46,12 +44,13 @@ const TeamContact = () => {
               viewport={{ once: true }}
               className="animate_top w-full rounded-lg bg-white p-7.5 dark:border dark:border-strokedark dark:bg-black md:w-3/5 lg:w-3/4 xl:p-15"
             >
-              <h1 className="mb-15 text-7xl font-medium text-black dark:text-white">
-              Contact Us
+              <h1 className="mb-15 text-4xl font-medium text-black dark:text-white xl:text-7xl">
+                Contact Us
               </h1>
 
-              <p className="mb-7.5 text-sub-hero text-black dark:text-white">
-              If you’re ready to grow, we are ready to go. One of our outsourcing specialists is waiting to help.
+              <p className="text-sub-hero mb-7.5 text-black dark:text-white">
+                If you’re ready to grow, we are ready to go. One of our
+                outsourcing specialists is waiting to help.
               </p>
               <form
                 action="https://formbold.com/s/unique_form_id"
@@ -100,7 +99,7 @@ const TeamContact = () => {
                       type="checkbox"
                       className="peer sr-only"
                     />
-                    <span className="border-gray-400 bg-gray-400 text-blue-600 dark:border-gray-600 dark:bg-gray-700 group mt-2 flex h-5 min-w-[20px] items-center justify-center rounded peer-checked:bg-primary">
+                    <span className="group mt-2 flex h-5 min-w-[20px] items-center justify-center rounded border-gray-400 bg-gray-400 text-blue-600 peer-checked:bg-primary dark:border-gray-600 dark:bg-gray-700">
                       <svg
                         className="opacity-0 peer-checked:group-[]:opacity-100"
                         width="10"
@@ -121,13 +120,18 @@ const TeamContact = () => {
                       htmlFor="default-checkbox"
                       className="max-w-[425px] cursor-pointer select-none pl-5"
                     >
-                      By submitting form, I confirm that I have read and agree to the <Link href="/privacy-policy" className="underline"> Privacy Policy </Link>
+                      By submitting form, I confirm that I have read and agree
+                      to the{" "}
+                      <Link href="/privacy-policy" className="underline">
+                        {" "}
+                        Privacy Policy{" "}
+                      </Link>
                     </label>
                   </div>
 
                   <button
                     aria-label="send message"
-                    className="inline-flex items-center gap-2.5 rounded-full bg-red px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-redho dark:bg-btnred"
+                    className="dark:bg-btnred inline-flex items-center gap-2.5 rounded-full bg-red px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-redho"
                   >
                     Talk to us now
                     {/* <svg
@@ -171,14 +175,15 @@ const TeamContact = () => {
               </h2> */}
 
               <div className="mb-7">
-                <h3 className="mb-4 text-sub-hero font-medium text-black dark:text-white pb-10 pt-10 md:pt-0">
-                Speak with a member of our team to find out how we can help.
+                <h3 className="text-sub-hero mb-4 pb-10 pt-10 font-medium text-black dark:text-white md:pt-0">
+                  Speak with a member of our team to find out how we can help.
                 </h3>
                 <button
-                    aria-label="book-a-meeting"
-                    className="inline-flex items-center gap-2.5 rounded-full bg-red px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-redho dark:bg-btnred">
-                Book a meeting now   
-              </button>               
+                  aria-label="book-a-meeting"
+                  className="dark:bg-btnred inline-flex items-center gap-2.5 rounded-full bg-red px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-redho"
+                >
+                  Book a meeting now
+                </button>
               </div>
             </motion.div>
           </div>

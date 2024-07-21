@@ -61,7 +61,7 @@ const Footer = () => {
                 </a> */}
               </motion.div>
 
-              <div className="flex w-full flex-col gap-8 md:flex-row md:justify-between md:gap-0 lg:w-2/3 xl:w-7/12">
+              <div className="flex w-full flex-col gap-4 md:w-5/12 md:flex-row md:justify-between md:gap-0 lg:w-4/12 xl:w-3/12">
                 <motion.div
                   variants={{
                     hidden: {
@@ -154,7 +154,7 @@ const Footer = () => {
                   </ul>
                 </motion.div>
 
-                <motion.div
+                {/* <motion.div
                   variants={{
                     hidden: {
                       opacity: 0,
@@ -214,7 +214,7 @@ const Footer = () => {
                       </button>
                     </div>
                   </form>
-                </motion.div>
+                </motion.div> */}
               </div>
             </div>
           </div>
@@ -222,7 +222,7 @@ const Footer = () => {
 
           {/* <!-- Footer Bottom --> */}
           <div className="flex flex-col flex-wrap items-center justify-center gap-5 border-t border-stroke py-7 dark:border-strokedark lg:flex-row lg:justify-between lg:gap-0">
-            <motion.div
+            {/* <motion.div
               variants={{
                 hidden: {
                   opacity: 0,
@@ -253,7 +253,7 @@ const Footer = () => {
                   </a>
                 </li>
               </ul>
-            </motion.div>
+            </motion.div> */}
 
             <motion.div
               variants={{

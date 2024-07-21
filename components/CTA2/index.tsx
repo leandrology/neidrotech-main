@@ -3,10 +3,10 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-const CTA = () => {
+const CTA2 = () => {
   return (
     <>
-      {/* <!-- ===== CTA Start ===== --> */}
+      {/* <!-- ===== CTA2 Start ===== --> */}
       <section className="overflow-hidden px-4 py-20 md:px-8 lg:py-25 xl:py-30 2xl:px-0">
         <div className="mx-auto max-w-c-1390 rounded-lg bg-gradient-to-t from-[#F8F9FF] to-[#DEE7FF] px-7.5 py-12.5 dark:bg-blacksection dark:bg-gradient-to-t dark:from-transparent dark:to-transparent dark:stroke-strokedark md:px-12.5 xl:px-17.5 xl:py-0">
           <div className="flex flex-wrap gap-8 md:flex-nowrap md:items-center md:justify-between md:gap-0">
@@ -29,12 +29,12 @@ const CTA = () => {
               className="animate_left md:w-[70%] lg:w-1/2"
             >
               <h1 className="mb-4 w-11/12 text-5xl font-medium text-black dark:text-white xl:text-sectiontitle4">
-                Ready to outsource? Let&apos;s connect!
+                Join the Niedrotech Network
               </h1>
               <p>
-                Stop drowning in tasks and start thriving! Partner with
-                Niedrotech for expert guidance and streamline your workflows.
-                Talk to us today!
+                Whether you're a company looking to expand your team with global
+                talent or a professional seeking international opportunities,
+                Niedrotech is your gateway to a world of possibilities.
               </p>
             </motion.div>
             <motion.div
@@ -67,16 +67,16 @@ const CTA = () => {
                   href="/contact"
                   className="inline-flex items-center gap-2.5 rounded-full bg-red px-6 py-3 font-medium text-white hover:opacity-90 dark:bg-red dark:text-white"
                 >
-                  Contact Us
+                  Connect with us today
                 </a>
               </div>
             </motion.div>
           </div>
         </div>
       </section>
-      {/* <!-- ===== CTA End ===== --> */}
+      {/* <!-- ===== CTA2 End ===== --> */}
     </>
   );
 };
 
-export default CTA;
+export default CTA2;

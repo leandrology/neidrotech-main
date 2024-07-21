@@ -4,24 +4,25 @@ const featuresData: Feature[] = [
   {
     id: 1,
     icon: "/images/icon/icon_01.svg",
-    title: "Expert IT Team",
+    title: "Maximize efficiencies",
     description:
-      "Our team of IT professionals excels in diverse technologies and is ready to tackle any challenge.",
+      "Improve efficiency by optimizing your workflows, leading to a stronger operation.",
   },
   {
     id: 2,
     icon: "/images/icon/icon_02.svg",
-    title: "Customized Solutions",
+    title: "Reduce operating costs",
     description:
-      "We provide IT solutions tailored to your business needs, ensuring efficiency and growth.",
+      "Expand your talent pool with cost-effective access to top offshore specialists (save up to 50-70%).",
   },
   {
     id: 3,
     icon: "/images/icon/icon_03.svg",
-    title: "Client Success Stories",
+    title: "Scale rapidly",
     description:
-      "Discover how our clients achieved their goals with our dedicated support and services.",
+      "Grow your business seamlessly with our custom-built solutions that empower efficient growth.",
   },
+
   // {
   //   id: 4,
   //   icon: "/images/icon/icon-04.svg",

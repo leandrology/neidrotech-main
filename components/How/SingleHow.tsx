@@ -1,10 +1,10 @@
 import React from "react";
-import { Feature } from "@/types/feature";
+import { How } from "@/types/how";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-const SingleFeature = ({ feature }: { feature: Feature }) => {
-  const { icon, title, description } = feature;
+const SingleHow = ({ how }: { how: How }) => {
+  const { icon, title, description } = how;
 
   return (
     <div>
@@ -31,10 +31,10 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
             <Image src={icon} width={36} height={36} alt="title" />
           </div>
         </div>
-        <h3 className="text-feature-title mb-5 mt-7.5 text-center text-black dark:text-white">
+        <h3 className="mb-5 mt-7.5 text-center text-2xl text-black dark:text-white">
           {title}
         </h3>
-        <p className="text-sub-feature text-center text-black dark:text-white">
+        <p className="text-center text-xl text-black dark:text-white">
           {description}
         </p>
       </motion.div>
@@ -42,4 +42,4 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
   );
 };
 
-export default SingleFeature;
+export default SingleHow;

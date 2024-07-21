@@ -16,12 +16,12 @@ const Feature = () => {
               title: "FEATURES",
               subtitle: "Global Remote",
               subtitle2: "Talent Leader",
-              description: `Dive deeper than traditional IT solutions. Our feature set offers cutting-edge tools for automation, cloud management, and data analytics, empowering your business to thrive.`,
+              description: `Niedrotech connects innovative companies with the top talent they need to succeed. Our cutting-edge technology and people-focused approach make building your dream team easier than ever.`,
             }}
           />
           {/* <!-- Section Title End --> */}
 
-          <div className="mt-12.5 grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:mt-15 lg:grid-cols-3 xl:mt-20 xl:gap-12.5 text-sub-hero">
+          <div className="text-sub-hero mt-12.5 grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:mt-15 lg:grid-cols-3 xl:mt-20 xl:gap-12.5">
             {/* <!-- Features item Start --> */}
 
             {featuresData.map((feature, key) => (

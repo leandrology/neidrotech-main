@@ -3,18 +3,19 @@ import { FAQ } from "@/types/faq";
 const faqData: FAQ[] = [
   {
     id: 1,
-    quest: "What IT services does Niedrotech offer?",
-    ans: "Niedrotech provides a comprehensive suite of IT solutions to empower businesses of all sizes. Our services encompass cloud management, network optimization, cybersecurity measures, IT consulting, and ongoing support. We can help you design, implement, and manage your IT infrastructure to streamline operations, enhance security, and achieve your business goals.",
+    quest: "How do you select the right outsourcing partners for my company?",
+    ans: "Choosing the right partner involves evaluating their expertise, reputation, and cultural fit with your organization. We also take into account various factors to consider include labour costs, language proficiency, and the availability of skilled workers.",
   },
   {
     id: 2,
-    quest: "How does Niedrotech approach IT security?",
-    ans: "At Niedrotech, we understand the critical importance of cybersecurity in today's digital landscape. We take a multi-layered approach to security, offering threat detection and prevention solutions, vulnerability assessments and patching, secure network architecture design, and ongoing security awareness training for your staff. We stay up-to-date on the latest cyber threats and implement proactive measures to safeguard your data and systems.",
+    quest:
+      "How long will it take for Niedrotech to assemble an outsourced team?",
+    ans: "The timeframe for building your outsourced team depends on several factors, including the complexity of the roles, the number of positions needed, and the current talent pool. However, we typically assemble high-performing teams within 2-4 weeks.",
   },
   {
     id: 3,
-    quest: "What are the benefits of partnering with us?",
-    ans: "Partnering with Niedrotech brings a multitude of benefits to your business. We offer a team of experienced and certified IT professionals who can become your trusted advisors.  We focus on understanding your unique needs and challenges to develop customized solutions that optimize your IT infrastructure and drive business growth. You'll experience improved efficiency, enhanced security, and peace of mind knowing your IT environment is in capable hands.",
+    quest: "What if I need to scale up or down my team?",
+    ans: "Niedrotech offers flexible solutions to accommodate your growth by simply letting us know your additional requirements and we'll follow the same process to find qualified candidates. If you need to reduce your team size, just let us know and we'll work with you to find a smooth transition plan. This may involve reassigning tasks or helping with knowledge transfer to remaining team members.",
   },
 ];
 

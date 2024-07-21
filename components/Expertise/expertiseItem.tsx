@@ -1,11 +1,11 @@
 "use client";
-import { Services } from "@/types/services";
+import { Expertise } from "@/types/expertise";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 
-const ServiceItem = ({ services }: { services: Services }) => {
-  const { mainImage, title, metadata, slug } = services;
+const ExpertiseItem = ({ expertise }: { expertise: Expertise }) => {
+  const { mainImage, title, metadata, slug } = expertise;
 
   return (
     <>
@@ -28,23 +28,21 @@ const ServiceItem = ({ services }: { services: Services }) => {
         className="animate_top rounded-lg bg-white p-4 pb-9 shadow-solid-8 dark:bg-blacksection"
       >
         <Link
-          href={`/services/${slug}`}
+          href={`/expertise/${slug}`}
           className="relative block aspect-[368/239]"
         >
           <Image src={mainImage} alt={title} fill />
         </Link>
 
         <div className="px-4">
-          <h3 className="mb-3.5 mt-7.5 line-clamp-2 inline-block text-3xl font-medium text-black duration-300 hover:text-primary dark:text-white dark:hover:text-primary xl:text-3xl">
-            <Link href={`/services/${slug}`}>{title}</Link>
+          <h3 className="mb-3.5 mt-7.5 line-clamp-2 inline-block text-3xl font-medium text-black duration-300 hover:text-primary dark:text-white dark:hover:text-primary">
+            <Link href={`/expertise/${slug}`}>{title}</Link>
           </h3>
-          <p className="line-clamp-3 text-2xl text-black dark:text-white">
-            {metadata}
-          </p>
+          <p className="text-2xl text-black dark:text-white">{metadata}</p>
         </div>
       </motion.div>
     </>
   );
 };
 
-export default ServiceItem;
+export default ExpertiseItem;

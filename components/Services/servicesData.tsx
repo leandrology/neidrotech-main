@@ -3,51 +3,35 @@ import { Services } from "@/types/services";
 const servicesData: Services[] = [
   {
     _id: 1,
-    slug: "software-development",
+    slug: "hr-consulting",
     mainImage: "/images/blog/blog-01.png",
-    title: "Software Development",
+    title: "HR Consulting",
     metadata:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+      "Providing organizations with the vital capabilities, strategies, and knowledge to build a robust and successful digital presence.",
   },
   {
     _id: 2,
-    slug: "web-development",
+    slug: "talent-sourcing",
     mainImage: "/images/blog/blog-02.png",
-    title: "Web Development",
+    title: "Talent Sourcing & Recruitment",
     metadata:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+      "Bridging forward-thinking enterprises and elite talent to create powerful collaborations.",
   },
   {
     _id: 3,
-    slug: "mobile-app-dev",
+    slug: "onboarding",
     mainImage: "/images/blog/blog-03.png",
-    title: "Mobile App Development",
+    title: "Onboarding",
     metadata:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+      "Guiding effortless shifts to create a balanced and high-performing staff.",
   },
   {
     _id: 4,
-    slug: "it-support-services",
+    slug: "performance-management",
     mainImage: "/images/blog/blog-03.png",
-    title: "IT Support and Managed Services",
+    title: "Performance Management & Payroll Processing",
     metadata:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
-  },
-  {
-    _id: 5,
-    slug: "data-analytics",
-    mainImage: "/images/blog/blog-04.png",
-    title: "Data Analytics and Business Intelligence",
-    metadata:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
-  },
-  {
-    _id: 6,
-    slug: "cloud-services",
-    mainImage: "/images/blog/blog-01.png",
-    title: "Cloud Services",
-    metadata:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+      "Maximizing your global talent's effectiveness with regular performance checks and simplified wage disbursement.",
   },
 ];
 

@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -46,7 +47,7 @@ const Footer = () => {
                 </a>
 
                 <p className="mb-10 mt-5">
-                Bridging the gap between technology and your goals.
+                  Bridging Global Talent with World-Class Companies.
                 </p>
 
                 {/* <p className="mb-1.5 text-inter uppercase tracking-[1px]">
@@ -108,7 +109,6 @@ const Footer = () => {
                         LinkedIn
                       </a>
                     </li>
-                    
                   </ul>
                 </motion.div>
 
@@ -136,12 +136,12 @@ const Footer = () => {
 
                   <ul>
                     <li>
-                      <a
-                        href="#"
+                      <Link
+                        href="/privacy-policy"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Privacy Policy
-                      </a>
+                      </Link>
                     </li>
                     <li>
                       <a
@@ -151,7 +151,6 @@ const Footer = () => {
                         Terms & Conditions
                       </a>
                     </li>
-                    
                   </ul>
                 </motion.div>
 
@@ -247,7 +246,7 @@ const Footer = () => {
                     English
                   </a>
                 </li>
-                
+
                 <li>
                   <a href="#" className="hover:text-primary">
                     Support
@@ -275,7 +274,8 @@ const Footer = () => {
               className="animate_top"
             >
               <p>
-                &copy; {new Date().getFullYear()} Niedrotech. All rights reserved
+                &copy; {new Date().getFullYear()} Niedrotech. All rights
+                reserved
               </p>
             </motion.div>
 
@@ -370,7 +370,6 @@ const Footer = () => {
                     </svg>
                   </a>
                 </li>
-                
               </ul>
             </motion.div>
           </div>

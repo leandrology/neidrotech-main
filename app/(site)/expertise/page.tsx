@@ -1,15 +1,15 @@
-import ServicesData from "@/components/Services/servicesData";
-import ServiceItem from "@/components/Services/serviceItem";
+import ExpertiseData from "@/components/Expertise/expertiseData";
+import ExpertiseItem from "@/components/Expertise/expertiseItem";
 import { Metadata } from "next";
 import SectionHeader from "@/components/Common/SectionHeader";
-import Services from "@/components/Services";
+import Expertise from "@/components/Expertise";
 export const metadata: Metadata = {
-  title: "Services Page - Niedrotech",
-  description: "This is Services page for Niedrotech",
+  title: "Expertise Page - Niedrotech",
+  description: "This is Expertise page for Niedrotech",
   // other metadata
 };
 
-const ServicesPage = async () => {
+const ExpertisePage = async () => {
   return (
     <>
       {/* <!-- ===== Blog Grid Start ===== --> */}
@@ -18,14 +18,14 @@ const ServicesPage = async () => {
           <div className="pb-10">
             <SectionHeader
               headerInfo={{
-                title: "Services",
-                subtitle: "Empower your Business with Our Managed Services",
+                title: "Expertise",
+                subtitle: "Remote expertise across all job functions",
                 subtitle2: "",
-                description: `We’ll match you with amazing staff, mobilize the team, and help you manage performance.`,
+                description: `Build your ultimate remote staff and ignite your company's performance.`,
               }}
             />
           </div>
-          <Services />
+          <Expertise />
         </div>
       </section>
       {/* <!-- ===== Blog Grid End ===== --> */}
@@ -33,4 +33,4 @@ const ServicesPage = async () => {
   );
 };
 
-export default ServicesPage;
+export default ExpertisePage;

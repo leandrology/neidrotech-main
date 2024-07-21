@@ -103,7 +103,7 @@ const Header = () => {
           }`}
         >
           <nav>
-            <ul className="flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-10 xl:pl-50 text-lg font-bold uppercase font-size-16 text-black dark:text-white">
+            <ul className="font-size-16 flex flex-col gap-5 text-lg font-bold uppercase text-black dark:text-white xl:flex-row xl:items-center xl:gap-10 xl:pl-50">
               {menuData.map((menuItem, key) => (
                 <li key={key} className={menuItem.submenu && "group relative"}>
                   {menuItem.submenu ? (
@@ -112,7 +112,10 @@ const Header = () => {
                         onClick={() => setDropdownToggler(!dropdownToggler)}
                         className="flex cursor-pointer items-center justify-between gap-3 hover:text-primary"
                       >
-                        {menuItem.title}
+                        <Link href={`${menuItem.path}`} className="uppercase">
+                          {" "}
+                          {menuItem.title}{" "}
+                        </Link>
                         <span>
                           <svg
                             className="h-3 w-3 cursor-pointer fill-waterloo group-hover:fill-primary"
@@ -128,8 +131,16 @@ const Header = () => {
                         className={`dropdown ${dropdownToggler ? "flex" : ""}`}
                       >
                         {menuItem.submenu.map((item, key) => (
-                          <li key={key} className="hover:text-primary">
-                            <Link href={item.path || "#"}>{item.title}</Link>
+                          <li
+                            key={key}
+                            className="uppercase hover:text-primary"
+                          >
+                            <Link
+                              href={item.path || "#"}
+                              onClick={() => setNavigationOpen(false)}
+                            >
+                              {item.title}
+                            </Link>
                           </li>
                         ))}
                       </ul>
@@ -142,6 +153,7 @@ const Header = () => {
                           ? "text-primary hover:text-primary"
                           : "hover:text-primary"
                       }
+                      onClick={() => setNavigationOpen(false)}
                     >
                       {menuItem.title}
                     </Link>
@@ -151,17 +163,16 @@ const Header = () => {
             </ul>
           </nav>
 
-          <div className="mt-7 flex items-center gap-6 xl:mt-0">
+          <div
+            className="mt-7 flex items-center gap-6 xl:mt-0"
+            onClick={() => setNavigationOpen(false)}
+          >
             <ThemeToggler />
-
-            
           </div>
         </div>
       </div>
     </header>
   );
 };
-
-// w-full delay-300
 
 export default Header;

@@ -4,12 +4,12 @@ import { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Blog Details Page - Solid SaaS Boilerplate",
-  description: "This is Blog details page for Solid Pro",
+  title: "Consultation Page - Niedrotech",
+  description: "This is Consultation page for Niedrotech",
   // other metadata
 };
 
-const CloudServices = async () => {
+const Consultation = async () => {
   return (
     <>
       <section className="pb-20 pt-35 lg:pb-25 lg:pt-45 xl:pb-30 xl:pt-50">
@@ -169,4 +169,4 @@ const CloudServices = async () => {
   );
 };
 
-export default CloudServices;
+export default Consultation;

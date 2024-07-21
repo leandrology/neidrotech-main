@@ -67,11 +67,12 @@
 }
 
 .blog-details p {
-  @apply mb-8 text-base leading-relaxed text-titlebgdark dark:text-waterloo;
+  @apply mb-8 text-2xl leading-relaxed text-titlebgdark dark:text-white;
 }
 
+
 .blog-details p strong {
-  @apply text-primary dark:text-waterloo;
+  @apply text-primary dark:text-primary;
 }
 .blog-details h3 strong,
 .blog-details h3 {
@@ -103,7 +104,7 @@
 
 .blog-details li,
 .blog-details li {
-  @apply mb-2 text-base text-titlebgdark dark:text-waterloo;
+  @apply mb-2 text-2xl text-titlebgdark dark:text-white;
 }
 
 .blog-details blockquote {
@@ -159,6 +160,11 @@ pre {
   line-height: 38px;
 }
 
+.text-how {
+  font-size: 7vw;
+  line-height: 100px;
+}
+
 .text-sub-hero-xl {
   font-size: 2.5vw;
   line-height: 68px;
@@ -171,10 +177,19 @@ pre {
 }
 
 .text-feature-title {
-  font-size: 26px;
+  font-size: 28px;
+}
+
+.text-how-title {
+  font-size: 28px;
 }
 
 .text-sub-feature {
+  font-size: 1vw;
+  line-height: 30px;
+}
+
+.text-sub-how {
   font-size: 1vw;
   line-height: 30px;
 }
@@ -203,6 +218,12 @@ pre {
     font-weight: 400;
   }
 
+  .text-how {
+    font-size: 10vw;
+    line-height: 60px;
+    font-weight: 400;
+  }
+
   .text-sub-hero {
     font-size: 5vw;
     line-height: 30px;
@@ -223,8 +244,16 @@ pre {
     font-size: 7vw;
   }
 
+  .text-how-title {
+    font-size: 7vw;
+  }
+
   .text-sub-feature {
     font-size: 5vw;
+  }
+
+  .text-sub-how {
+    font-size: 7vw;
   }
 
   .text-faq {

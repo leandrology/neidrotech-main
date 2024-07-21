@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import CTA2 from "../CTA2";
 
 const About = () => {
   return (
@@ -28,37 +29,26 @@ const About = () => {
               viewport={{ once: true }}
               className="animate_left md:w-1/2"
             >
-              {/* <h1 className="font-medium uppercase text-black dark:text-white">
-                Launch Your SaaS Fast
-              </h1> */}
-              <h2 className="relative mb-6 text-section-title font-medium text-black dark:text-white">
+              <h2 className="text-section-title relative mb-6 font-medium text-black dark:text-white">
                 All About Niedrotech
               </h2>
               <p className="text-sub-feature">
-              Niedrotech wasn't born in a Silicon Valley garage; it started as a spark of frustration. Our founders, a group of passionate tech enthusiasts, were tired of seeing businesses struggle with outdated IT infrastructure and a lack of strategic guidance. They envisioned a world where technology empowered businesses, not hindered them.
+                Niedrotech is a pioneering outsourcing company based in the
+                Philippines, dedicated to connecting top-tier talent from across
+                the globe with forward-thinking companies worldwide. Our mission
+                is to break down geographical barriers and create seamless
+                partnerships between exceptional professionals and innovative
+                businesses.
               </p>
               <br />
               <p className="text-sub-feature">
-              In 2012, Niedrotech emerged from that spark. With a small team and a big dream, we set out to bridge the gap between cutting-edge technology and real-world business needs. Our focus wasn't just on selling solutions; it was about building partnerships. We believed that by truly understanding a company's unique challenges and goals, we could craft IT strategies that unlocked their full potential.
+                Founded on the principles of excellence and global
+                collaboration, Niedrotech has emerged as a leader in the
+                outsourcing industry. Our roots in the Philippines, a country
+                known for its skilled and dedicated workforce, provide us with a
+                unique perspective on international talent acquisition and
+                management.
               </p>
-              {/* <div>
-                <a
-                  href="#"
-                  className="group mt-7.5 inline-flex items-center gap-2.5 text-black hover:text-primary dark:text-white dark:hover:text-primary"
-                >
-                  <span className="duration-300 group-hover:pr-2">
-                    Know More
-                  </span>
-                  <svg
-                    width="14"
-                    height="14"
-                    viewBox="0 0 14 14"
-                    fill="currentColor"
-                  >
-                    <path d="M10.4767 6.16701L6.00668 1.69701L7.18501 0.518677L13.6667 7.00034L7.18501 13.482L6.00668 12.3037L10.4767 7.83368H0.333344V6.16701H10.4767Z" />
-                  </svg>
-                </a>
-              </div> */}
             </motion.div>
             <motion.div
               variants={{
@@ -148,12 +138,12 @@ const About = () => {
               viewport={{ once: true }}
               className="animate_right md:w-1/2"
             >
-              
-              <h2 className="relative mb-6 text-section-title font-medium text-black dark:text-white">
+              <h2 className="text-section-title relative mb-6 font-medium text-black dark:text-white">
                 Our Mission
               </h2>
               <p className="text-sub-feature">
-              To deliver top-notch IT solutions that empower businesses to achieve their goals.
+                To deliver top-notch IT solutions that empower businesses to
+                achieve their goals.
               </p>
             </motion.div>
           </div>
@@ -184,30 +174,13 @@ const About = () => {
               {/* <h1 className="font-medium uppercase text-black dark:text-white">
                 Launch Your SaaS Fast
               </h1> */}
-              <h2 className="relative mb-6 text-section-title font-medium text-black dark:text-white">
+              <h2 className="text-section-title relative mb-6 font-medium text-black dark:text-white">
                 Our Vision
               </h2>
               <p className="text-sub-feature">
-              To be the most trusted and innovative BPO IT service provider globally.
+                To be the most trusted and innovative BPO IT service provider
+                globally.
               </p>
-              {/* <div>
-                <a
-                  href="#"
-                  className="group mt-7.5 inline-flex items-center gap-2.5 text-black hover:text-primary dark:text-white dark:hover:text-primary"
-                >
-                  <span className="duration-300 group-hover:pr-2">
-                    Know More
-                  </span>
-                  <svg
-                    width="14"
-                    height="14"
-                    viewBox="0 0 14 14"
-                    fill="currentColor"
-                  >
-                    <path d="M10.4767 6.16701L6.00668 1.69701L7.18501 0.518677L13.6667 7.00034L7.18501 13.482L6.00668 12.3037L10.4767 7.83368H0.333344V6.16701H10.4767Z" />
-                  </svg>
-                </a>
-              </div> */}
             </motion.div>
             <motion.div
               variants={{
@@ -245,7 +218,6 @@ const About = () => {
       </section>
 
       {/* <!-- ===== About End ===== --> */}
-
 
       <section className="overflow-hidden pb-20 lg:pb-25 xl:pb-30">
         <div className="mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0">
@@ -299,8 +271,7 @@ const About = () => {
               viewport={{ once: true }}
               className="animate_right md:w-1/2"
             >
-              
-              <h2 className="relative mb-6 text-section-title font-medium text-black dark:text-white">
+              <h2 className="text-section-title relative mb-6 font-medium text-black dark:text-white">
                 Our Values
               </h2>
               {/* <p className="text-sub-feature">
@@ -315,10 +286,14 @@ const About = () => {
                   </p>
                 </div>
                 <div className="w-3/4">
-                  <h3 className="mb-0.5 text-sub-feature text-black dark:text-white">
+                  <h3 className="text-sub-feature mb-0.5 text-black dark:text-white">
                     Commitment to Excellence
                   </h3>
-                  <>We strive for the highest quality in everything we do, from our products and services to our customer interactions. We are relentless in our pursuit of continuous improvement.</>
+                  <>
+                    We strive for the highest quality in everything we do, from
+                    our products and services to our customer interactions. We
+                    are relentless in our pursuit of continuous improvement.
+                  </>
                 </div>
               </div>
               <div className="mt-7.5 flex items-center gap-5">
@@ -328,10 +303,14 @@ const About = () => {
                   </p>
                 </div>
                 <div className="w-3/4">
-                  <h3 className="mb-0.5 text-sub-feature text-black dark:text-white">
-                  Customer Satisfaction
+                  <h3 className="text-sub-feature mb-0.5 text-black dark:text-white">
+                    Customer Satisfaction
                   </h3>
-                  <p>Your satisfaction is our top priority. We listen to your needs and feedback to ensure we are exceeding your expectations and building lasting relationships.</p>
+                  <p>
+                    Your satisfaction is our top priority. We listen to your
+                    needs and feedback to ensure we are exceeding your
+                    expectations and building lasting relationships.
+                  </p>
                 </div>
               </div>
               <div className="mt-7.5 flex items-center gap-5">
@@ -341,10 +320,14 @@ const About = () => {
                   </p>
                 </div>
                 <div className="w-3/4">
-                  <h3 className="mb-0.5 text-sub-feature text-black dark:text-white">
-                  Integrity
+                  <h3 className="text-sub-feature mb-0.5 text-black dark:text-white">
+                    Integrity
                   </h3>
-                  <p>We foster a culture of creativity and embrace new ideas. We are constantly looking for ways to improve our offerings and stay ahead of the curve.</p>
+                  <p>
+                    We foster a culture of creativity and embrace new ideas. We
+                    are constantly looking for ways to improve our offerings and
+                    stay ahead of the curve.
+                  </p>
                 </div>
               </div>
               <div className="mt-7.5 flex items-center gap-5">
@@ -354,10 +337,14 @@ const About = () => {
                   </p>
                 </div>
                 <div className="w-3/4">
-                  <h3 className="mb-0.5 text-sub-feature text-black dark:text-white">
-                  Innovation
+                  <h3 className="text-sub-feature mb-0.5 text-black dark:text-white">
+                    Innovation
                   </h3>
-                  <p>We conduct ourselves with honesty, transparency, and ethical behavior in all situations. We hold ourselves accountable to the highest standards.</p>
+                  <p>
+                    We conduct ourselves with honesty, transparency, and ethical
+                    behavior in all situations. We hold ourselves accountable to
+                    the highest standards.
+                  </p>
                 </div>
               </div>
               <div className="mt-7.5 flex items-center gap-5">
@@ -367,10 +354,14 @@ const About = () => {
                   </p>
                 </div>
                 <div className="w-3/4">
-                  <h3 className="mb-0.5 text-sub-feature text-black dark:text-white">
-                  Teamwork
+                  <h3 className="text-sub-feature mb-0.5 text-black dark:text-white">
+                    Teamwork
                   </h3>
-                  <p>We believe in the power of collaboration. We work together effectively to achieve our goals, leveraging the diverse strengths and perspectives of our team members.</p>
+                  <p>
+                    We believe in the power of collaboration. We work together
+                    effectively to achieve our goals, leveraging the diverse
+                    strengths and perspectives of our team members.
+                  </p>
                 </div>
               </div>
             </motion.div>
@@ -379,7 +370,7 @@ const About = () => {
       </section>
       {/* <!-- ===== About End ===== --> */}
 
-      
+      <CTA2 />
     </div>
   );
 };

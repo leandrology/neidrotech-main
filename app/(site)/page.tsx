@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { useState, useEffect } from "react";
 import Hero from "@/components/Hero";
 import Brands from "@/components/Brands";
 import Feature from "@/components/Features";
@@ -13,6 +14,9 @@ import Contact from "@/components/Contact";
 import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
 import Landing from "@/components/Landing";
+import dynamic from 'next/dynamic';
+
+const PriorityLanding = dynamic(() => import('@/components/Landing'), { ssr: false });
 
 export const metadata: Metadata = {
   title: "Niedrotech",
@@ -23,18 +27,11 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
-      <Landing />
+      <PriorityLanding />
       <Hero />
       <Brands />
       <Feature />
-      {/* <About /> */}
-      {/* <FeaturesTab /> */}
-      {/* <FunFact /> */}
-      {/* <Integration /> */}
       <Testimonial />
-      {/* <Pricing /> */}
-      {/* <Blog /> */}
-      {/* <Contact /> */}
       <FAQ />
       <CTA />
     </main>

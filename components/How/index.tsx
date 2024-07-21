@@ -35,10 +35,10 @@ const How = () => {
                 viewport={{ once: true }}
                 className="animate_left mx-auto md:text-center"
               >
-                <h1 className="text-how xs:mx-10 mb-5 text-center text-black dark:text-white">
+                <h1 className="text-section-title xs:mx-10 mb-5 text-center text-black dark:text-white">
                   Leverage global
                 </h1>
-                <h1 className="text-how xs:mx-10 mb-5 text-center text-black dark:text-white xl:pb-10">
+                <h1 className="text-section-title xs:mx-10 mb-5 text-center text-black dark:text-white xl:pb-10">
                   talent for your success
                 </h1>
               </motion.div>

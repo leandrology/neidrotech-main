@@ -14,7 +14,7 @@ const SectionHeader = ({ headerInfo }: { headerInfo: HeaderInfo }) => {
   return (
     <div>
       {/* <!-- Section Title Start --> */}
-      
+
       <motion.div
         variants={{
           hidden: {
@@ -38,13 +38,15 @@ const SectionHeader = ({ headerInfo }: { headerInfo: HeaderInfo }) => {
             {title}
           </span>
         </div> */}
-        <h2 className="mx-auto mb-4 text-section-title font-medium text-black dark:text-white md:w-4/5 xl:w-full xl:text-section-title">
-          {subtitle} 
+        <h2 className="text-section-title xl:text-section-title mx-auto mb-4 font-medium text-black dark:text-white md:w-4/5 xl:w-full">
+          {subtitle}
         </h2>
-        <h2 className="mx-auto mb-4 text-section-title font-medium text-black dark:text-white md:w-4/5 xl:w-full xl:text-section-title">
+        <h2 className="text-section-title xl:text-section-title mx-auto mb-4 font-medium text-black dark:text-white md:w-4/5 xl:w-full">
           {subtitle2}
         </h2>
-        <p className="mx-auto md:w-4/5 lg:w-3/5 xl:w-[76%] text-sub-hero text-black dark:text-white">{description}</p>
+        <p className="text-sub-hero mx-auto text-black dark:text-white md:w-4/5 lg:w-3/5 xl:w-[76%]">
+          {description}
+        </p>
       </motion.div>
       {/* <!-- Section Title End --> */}
     </div>

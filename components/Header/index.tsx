@@ -112,7 +112,11 @@ const Header = () => {
                         onClick={() => setDropdownToggler(!dropdownToggler)}
                         className="flex cursor-pointer items-center justify-between gap-3 hover:text-primary"
                       >
-                        <Link href={`${menuItem.path}`} className="uppercase">
+                        <Link
+                          onClick={() => setNavigationOpen(false)}
+                          href={`${menuItem.path}`}
+                          className="uppercase"
+                        >
                           {" "}
                           {menuItem.title}{" "}
                         </Link>

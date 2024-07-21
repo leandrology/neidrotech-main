@@ -150,7 +150,7 @@ pre {
 
 .text-hero {
   font-size: 160px;
-  line-height: 135px;
+  line-height: 100px;
   font-weight: 400;
   min-width: max-content;
 }
@@ -173,7 +173,7 @@ pre {
 .text-section-title {
   font-weight: 400;
   font-size: 6vw;
-  line-height: 125px;
+  line-height: 90px;
 }
 
 .text-feature-title {

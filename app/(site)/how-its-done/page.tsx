@@ -3,8 +3,8 @@ import How from "@/components/How";
 import { Metadata } from "next";
 import SectionHeader from "@/components/Common/SectionHeader";
 export const metadata: Metadata = {
-  title: "How It Works - Niedrotech",
-  description: "How it works for the partners of Niedrotech?",
+  title: "How Its Done - Niedrotech",
+  description: "How Its Done for the partners of Niedrotech?",
   // other metadata
 };
 

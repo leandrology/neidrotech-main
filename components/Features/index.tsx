@@ -14,8 +14,8 @@ const Feature = () => {
           <SectionHeader
             headerInfo={{
               title: "FEATURES",
-              subtitle: "Global Remote",
-              subtitle2: "Talent Leader",
+              subtitle: "Talent Acquisition Leader",
+              subtitle2: "",
               description: `Niedrotech connects innovative companies with the top talent they need to succeed. Our cutting-edge technology and people-focused approach make building your dream team easier than ever.`,
             }}
           />

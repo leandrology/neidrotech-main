@@ -31,7 +31,7 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
             <Image src={icon} width={36} height={36} alt="title" />
           </div>
         </div>
-        <h3 className="text-feature-title mb-5 mt-7.5 text-center text-black dark:text-white">
+        <h3 className="text-feature-title mb-2 mt-7.5 text-center text-black dark:text-white">
           {title}
         </h3>
         <p className="text-sub-feature text-center text-black dark:text-white">

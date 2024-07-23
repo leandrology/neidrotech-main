@@ -4,21 +4,21 @@ const featuresData: Feature[] = [
   {
     id: 1,
     icon: "/images/icon/icon_01.svg",
-    title: "Maximize efficiencies",
+    title: "Maximize Efficiencies",
     description:
       "Improve efficiency by optimizing your workflows, leading to a stronger operation.",
   },
   {
     id: 2,
     icon: "/images/icon/icon_02.svg",
-    title: "Reduce operating costs",
+    title: "Reduce Operating Costs",
     description:
       "Expand your talent pool with cost-effective access to top offshore specialists (save up to 50-70%).",
   },
   {
     id: 3,
     icon: "/images/icon/icon_03.svg",
-    title: "Scale rapidly",
+    title: "Scale Rapidly",
     description:
       "Grow your business seamlessly with our custom-built solutions that empower efficient growth.",
   },

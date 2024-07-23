@@ -167,17 +167,17 @@ pre {
 
 .text-sub-hero-xl {
   font-size: 2.5vw;
-  line-height: 68px;
+  line-height: 47px;
 }
 
 .text-section-title {
   font-weight: 400;
-  font-size: 6vw;
+  font-size: 5vw;
   line-height: 85px;
 }
 
 .text-feature-title {
-  font-size: 28px;
+  font-size: 27px;
 }
 
 .text-how-title {
@@ -227,23 +227,24 @@ pre {
   }
 
   .text-sub-hero {
-    font-size: 5vw;
+    font-size: 4vw;
     line-height: 30px;
   }
   
   .text-sub-hero-xl {
       font-size: 5.5vw;
       margin-top: 139px;
-      line-height: 38px;
+      line-height: 29px;
   }
 
   .text-section-title {
-    font-size: 2.75rem;
+    font-size: 2rem;
+    font-weight: 600;
     line-height: 1;
   }
 
   .text-feature-title {
-    font-size: 7vw;
+    font-size: 6vw;
   }
 
   .text-how-title {
@@ -251,7 +252,7 @@ pre {
   }
 
   .text-sub-feature {
-    font-size: 5vw;
+    font-size: 4vw;
   }
 
   .text-sub-how {

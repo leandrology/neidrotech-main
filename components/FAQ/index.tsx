@@ -48,12 +48,12 @@ const FAQ = () => {
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_left md:w-2/5 lg:w-1/2"
+              className="animate_left md:w-full lg:w-1/2"
             >
               {/* <span className="font-medium uppercase text-black dark:text-white">
                 OUR FAQS
               </span> */}
-              <h2 className="relative mb-6 text-section-title font-medium text-black dark:text-white">
+              <h2 className="text-section-title mb-0 text-center font-medium text-black dark:text-white md:text-left">
                 Frequently Asked Questions
               </h2>
 

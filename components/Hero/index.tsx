@@ -25,7 +25,7 @@ const Hero = () => {
                     opacity: 0,
                     x: -20,
                   },
-  
+
                   visible: {
                     opacity: 1,
                     x: 0,
@@ -35,14 +35,14 @@ const Hero = () => {
                 whileInView="visible"
                 transition={{ duration: 1, delay: 0.1 }}
                 viewport={{ once: true }}
-                className="animate_left mx-auto"
+                className="animate_left"
               >
-              <h1 className="mb-5 pr-12 text-hero text-black dark:text-white xl:pl-60 xl:pb-5">
-                Innovation 
-              </h1>
-              <h1 className="mb-5 pr-12 text-hero text-black dark:text-white xl:pb-10">
-                Fuels Future
-              </h1>
+                <h1 className="text-section-title xl:text-section-title mx-auto mb-4 font-medium text-black dark:text-white md:w-4/5 xl:w-full">
+                  Innovation <span className="text-primary">Fuels Future </span>
+                </h1>
+                {/* <h1 className="mb-5 text-center text-hero text-black dark:text-white xl:pb-5">
+                  Innovation <span className="text-primary">Fuels Future </span>
+                </h1> */}
               </motion.div>
               <motion.div
                 variants={{
@@ -62,14 +62,14 @@ const Hero = () => {
                 viewport={{ once: true }}
                 className="animate_top mx-auto"
               >
-              <p className="text-sub-hero text-black dark:text-white">
-              Niedrotech connects innovative companies with their dream team. 
-              We specialize in offshore outsourcing, 
-              connecting your business with skilled professionals who
-              embody your company values and meet your quality benchmarks.
-              </p>
+                <p className="text-sub-hero text-black dark:text-white">
+                  Niedrotech connects innovative companies with their dream
+                  team. We specialize in offshore outsourcing, connecting your
+                  business with skilled professionals who embody your company
+                  values and meet your quality benchmarks.
+                </p>
               </motion.div>
-              <div className="mt-10 items-center justify-center w-1/2">
+              <div className="mt-10 w-1/2 items-center justify-center">
                 <form onSubmit={handleSubmit}>
                   <div className="flex flex-wrap gap-5">
                     {/* <input
@@ -89,70 +89,70 @@ const Hero = () => {
                 </form>
               </div>
             </div>
-            
+
             <div className="animate_right hidden md:w-1/2 lg:block">
               <div className="relative 2xl:-mr-7.5">
-              <motion.div
-                variants={{
-                  hidden: {
-                    opacity: 0,
-                    x: 20,
-                  },
-  
-                  visible: {
-                    opacity: 1,
-                    x: 0,
-                  },
-                }}
-                initial="hidden"
-                whileInView="visible"
-                transition={{ duration: 1, delay: 0.1 }}
-                viewport={{ once: true }}
-                className="animate_right mx-auto text-center"
-              >
-                {/* <Image
+                <motion.div
+                  variants={{
+                    hidden: {
+                      opacity: 0,
+                      x: 20,
+                    },
+
+                    visible: {
+                      opacity: 1,
+                      x: 0,
+                    },
+                  }}
+                  initial="hidden"
+                  whileInView="visible"
+                  transition={{ duration: 1, delay: 0.1 }}
+                  viewport={{ once: true }}
+                  className="animate_right mx-auto text-center"
+                >
+                  {/* <Image
                   src="/images/shape/shape-03.svg"
                   alt="shape"
                   width={46}
                   height={246}
                   className="absolute -left-11.5 top-0"
                 /> */}
-                {/* <Image
+                  {/* <Image
                   src="/images/shape/shape-01.png"
                   alt="shape"
                   width={46}
                   height={246}
                   className="absolute -left-11.5 top-0"
                 /> */}
-                <Image
-                  src="/images/shape/shape-02.svg"
-                  alt="shape"
-                  width={36.9}
-                  height={36.7}
-                  className="absolute bottom-0 right-0 z-10"
-                />
-                <Image
-                  src="/images/shape/shape-03.svg"
-                  alt="shape"
-                  width={21.64}
-                  height={21.66}
-                  className="absolute -right-6.5 bottom-0 z-1"
-                />
-                <div className=" relative aspect-[500/444] w-full">
                   <Image
-                    className="dark:hidden"
-                    src="/images/hero/rocket-hero.png"
-                    alt="Hero"
-                    fill
+                    src="/images/shape/shape-02.svg"
+                    alt="shape"
+                    width={36.9}
+                    height={36.7}
+                    className="absolute bottom-0 right-0 z-10"
                   />
                   <Image
-                    className="hidden dark:block"
-                    src="/images/hero/rocket-hero.png"
-                    alt="Hero"
-                    fill
+                    src="/images/shape/shape-03.svg"
+                    alt="shape"
+                    width={21.64}
+                    height={21.66}
+                    className="absolute -right-6.5 bottom-0 z-1"
                   />
-                </div>
-              </motion.div>
+                  <div className="relative aspect-[500/444] w-full">
+                    <Image
+                      className="dark:hidden"
+                      src="/images/hero/rocket-hero.png"
+                      alt="Hero"
+                      fill
+                    />
+                    <Image
+                      className="hidden dark:block"
+                      src="/images/hero/rocket-hero.png"
+                      alt="Hero"
+                      fill
+                    />
+                  </div>
+                </motion.div>
               </div>
             </div>
           </div>

@@ -30,7 +30,7 @@ const Expertise = async () => {
               viewport={{ once: true }}
               className="animate_right text-left"
             >
-              <h1 className="mx-auto mt-5 pb-5 pt-20 text-6xl text-black dark:text-white xl:w-full">
+              <h1 className="text-section-title mx-auto mt-5 pb-5 pt-20 text-black dark:text-white xl:w-full">
                 Outsourcing like you’ve never known
               </h1>
               <p className="text-sub-hero mx-auto text-black dark:text-white md:w-full">
@@ -62,12 +62,12 @@ const Expertise = async () => {
                   whileInView="visible"
                   transition={{ duration: 1, delay: 0.1 }}
                   viewport={{ once: true }}
-                  className="animate_right md:text-center"
+                  className="animate_right"
                 >
-                  <h1 className="xs:text-left mx-10 mt-5 pb-2 pt-30 text-6xl text-black dark:text-white xl:w-full">
+                  <h1 className="text-section-title mx-10 mt-5 pb-2 pt-30 text-center text-black dark:text-white xl:w-full">
                     Your Industry, Our Expertise
                   </h1>
-                  <p className="text-sub-hero mx-10 pb-5 text-black dark:text-white">
+                  <p className="text-sub-hero mx-10 pb-5 text-center text-black dark:text-white">
                     Niedrotech has collaborated closely with diverse businesses,
                     from startups to enterprises, spanning multiple sectors. Our
                     expertise extends across numerous industries, including:

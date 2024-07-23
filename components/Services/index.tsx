@@ -30,7 +30,7 @@ const Services = async () => {
               viewport={{ once: true }}
               className="animate_right text-left"
             >
-              <h1 className="mx-auto mt-5 pb-5 pt-20 text-6xl text-black dark:text-white xl:w-full">
+              <h1 className="text-section-title mx-auto mt-5 pb-5 pt-20 text-black dark:text-white xl:w-full">
                 Why Choose Our Managed Services?
               </h1>
               <p className="text-sub-hero mx-auto text-black dark:text-white md:w-full">
@@ -44,7 +44,7 @@ const Services = async () => {
               </p>
 
               <div className="blog-details pt-10">
-                <p className="sm:text-6xl">
+                <p className="sm:text-section-title">
                   <strong>Proven Expertise: </strong>
                   Our extensive industry experience has given us deep insight
                   into the complex needs of today's businesses. We provide
@@ -106,7 +106,7 @@ const Services = async () => {
                   viewport={{ once: true }}
                   className="animate_right md:text-center"
                 >
-                  <h1 className="xs:text-left mx-auto mt-5 pb-2 pt-20 text-6xl text-black dark:text-white xl:w-full">
+                  <h1 className="xs:text-left text-section-title mx-auto mt-5 pb-2 pt-20 text-black dark:text-white xl:w-full">
                     Explore Our Managed Services Solutions
                   </h1>
                 </motion.div>

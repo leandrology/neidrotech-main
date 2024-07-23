@@ -9,7 +9,7 @@ const Footer = () => {
       <footer className="border-t border-stroke bg-white dark:border-strokedark dark:bg-blacksection">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           {/* <!-- Footer Top --> */}
-          <div className="py-20 lg:py-25">
+          <div className="py-15 lg:py-15">
             <div className="flex flex-wrap gap-8 lg:justify-between lg:gap-0">
               <motion.div
                 variants={{
@@ -27,30 +27,30 @@ const Footer = () => {
                 whileInView="visible"
                 transition={{ duration: 1, delay: 0.5 }}
                 viewport={{ once: true }}
-                className="animate_top w-1/2 lg:w-1/4"
+                className="animate_top w-1/2 lg:w-1/2"
               >
                 <a href="index.html" className="relative ">
                   <Image
-                    width={110}
-                    height={80}
+                    width={200}
+                    height={150}
                     src="/images/logo/logo-light.png"
                     alt="Logo"
                     className="dark:hidden"
                   />
                   <Image
-                    width={110}
-                    height={80}
+                    width={200}
+                    height={150}
                     src="/images/logo/logo-dark.png"
                     alt="Logo"
                     className="hidden dark:block"
                   />
                 </a>
 
-                <p className="mb-10 mt-5">
+                <p className="mb-10 mt-0 text-black dark:text-white">
                   Bridging Global Talent with World-Class Companies.
                 </p>
 
-                {/* <p className="mb-1.5 text-inter uppercase tracking-[1px]">
+                {/* <p className="text-inter mb-1.5 uppercase tracking-[1px]">
                   contact
                 </p>
                 <a
@@ -61,7 +61,14 @@ const Footer = () => {
                 </a> */}
               </motion.div>
 
-              <div className="flex w-full flex-col gap-4 md:w-5/12 md:flex-row md:justify-between md:gap-0 lg:w-4/12 xl:w-3/12">
+              <div
+                className="flex 
+              w-full 
+              gap-20 
+              md:w-5/12 
+              md:flex-row md:justify-between
+              md:gap-0 lg:w-4/12 xl:w-3/12"
+              >
                 <motion.div
                   variants={{
                     hidden: {

@@ -12,7 +12,7 @@ const Landing = () => {
           We offer outsourcing solutions for businesses seeking high-caliber,
           culturally aligned offshore talent.
         </h1>
-        <div className="spline-container z-1 mx-auto max-w-[1400px] cursor-pointer rounded-lg">
+        <div className="spline-container z-1 mx-auto max-w-[1440px] cursor-pointer rounded-lg">
           <SplineImage />
         </div>
       </section>

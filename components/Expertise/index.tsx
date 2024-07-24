@@ -10,6 +10,56 @@ const Expertise = async () => {
     <div>
       <section className="pb-10 pt-0 lg:py-2 xl:pb-15 xl:pt-0">
         <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
+          <div className="xs:text-center">
+            <motion.div
+              variants={{
+                hidden: {
+                  opacity: 0,
+                  x: -20,
+                },
+
+                visible: {
+                  opacity: 1,
+                  x: 0,
+                },
+              }}
+              initial="hidden"
+              whileInView="visible"
+              transition={{ duration: 1, delay: 0.1 }}
+              viewport={{ once: true }}
+              className="animate_left mx-auto md:text-center"
+            >
+              <h1 className="text-hid-title mb-5 text-left text-[4vw] text-black dark:text-white">
+                Remote <span className="text-primary">Role Expertise </span>
+              </h1>
+            </motion.div>
+            <motion.div
+              variants={{
+                hidden: {
+                  opacity: 0,
+                  y: -20,
+                },
+
+                visible: {
+                  opacity: 1,
+                  y: 0,
+                },
+              }}
+              initial="hidden"
+              whileInView="visible"
+              transition={{ duration: 1, delay: 0.1 }}
+              viewport={{ once: true }}
+              className="animate_top mx-auto"
+            >
+              <p className="text-sub-hero text-left text-black dark:text-white">
+                Build your ultimate remote staff with our expert recruitment and
+                onboarding. Access top talent worldwide, seamlessly integrate
+                them into your team, and unlock their potential to drive
+                innovation and business growth. Ignite your company's
+                performance with a dedicated remote workforce.
+              </p>
+            </motion.div>
+          </div>
           {/* <!-- Section Title Start --> */}
           <div className="animate_top mx-auto text-center">
             <motion.div
@@ -30,8 +80,8 @@ const Expertise = async () => {
               viewport={{ once: true }}
               className="animate_right text-left"
             >
-              <h1 className="text-section-title mx-auto mt-5 pb-5 pt-20 text-black dark:text-white xl:w-full">
-                Outsourcing like you’ve never known
+              <h1 className="text-hid-title mx-auto mt-5 pb-5 pt-15 text-black dark:text-white xl:w-full">
+                Partnership For Growth
               </h1>
               <p className="text-sub-hero mx-auto text-black dark:text-white md:w-full">
                 In today's dynamic corporate world, success hinges on having
@@ -41,7 +91,7 @@ const Expertise = async () => {
                 boost your business performance.
               </p>
               <p className="text-sub-hero mx-auto text-black dark:text-white md:w-full">
-                You're not solo on this voyage – we're by your side, dedicated
+                You're not alone on this journey – we're by your side, dedicated
                 to helping your company reach new pinnacles of achievement.
               </p>
 
@@ -64,28 +114,16 @@ const Expertise = async () => {
                   viewport={{ once: true }}
                   className="animate_right"
                 >
-                  <h1 className="text-section-title mx-10 mt-5 pb-2 pt-30 text-center text-black dark:text-white xl:w-full">
-                    Your Industry, Our Expertise
+                  <h1 className="text-hid-title mx-auto mt-5 pb-5 pt-15 text-left text-black dark:text-white md:text-center xl:w-full">
+                    Global Industry Experts
                   </h1>
-                  <p className="text-sub-hero mx-10 pb-5 text-center text-black dark:text-white">
+                  <p className="text-sub-hero mx-auto text-left text-black dark:text-white md:text-center">
                     Niedrotech has collaborated closely with diverse businesses,
                     from startups to enterprises, spanning multiple sectors. Our
                     expertise extends across numerous industries, including:
                   </p>
                 </motion.div>
               </div>
-
-              {/* <h1 className="mx-auto mt-5 pb-5 pt-20 text-6xl text-black dark:text-white xl:w-full">
-                Outsourcing like you’ve never known
-              </h1>
-              <p className="text-sub-hero mx-auto text-black dark:text-white md:w-full">
-                Navigating the ever-changing business world demands both
-                expertise and direction. Cloudstaff stands as your partner in
-                this venture, providing top-tier international talent and
-                cutting-edge technology to propel your company to new heights.
-                We're not just a service provider; we're your co-pilot on the
-                path to success.
-              </p> */}
             </motion.div>
           </div>
           {/* <!-- Section Title End --> */}

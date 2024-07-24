@@ -34,11 +34,13 @@ const ExpertiseItem = ({ expertise }: { expertise: Expertise }) => {
           <Image src={mainImage} alt={title} fill />
         </Link>
 
-        <div className="px-4">
-          <h3 className="mb-3.5 mt-7.5 line-clamp-2 inline-block text-3xl font-medium text-black duration-300 hover:text-primary dark:text-white dark:hover:text-primary">
+        <div className="px-0 md:px-4">
+          <h3 className="text-section-title mb-3.5 mt-7.5 inline-block font-medium text-black duration-300 hover:text-primary dark:text-white dark:hover:text-primary xl:text-3xl">
             <Link href={`/expertise/${slug}`}>{title}</Link>
           </h3>
-          <p className="text-2xl text-black dark:text-white">{metadata}</p>
+          <p className="text-sub-feature text-black dark:text-white">
+            {metadata}
+          </p>
         </div>
       </motion.div>
     </>

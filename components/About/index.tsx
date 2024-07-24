@@ -30,9 +30,9 @@ const About = () => {
               className="animate_left md:w-1/2"
             >
               <h2 className="text-section-title relative mb-6 font-medium text-black dark:text-white">
-                All About Niedrotech
+                All About <span className="text-primary">Niedrotech</span>
               </h2>
-              <p className="text-sub-feature">
+              <p className="text-sub-feature text-black dark:text-white">
                 Niedrotech is a pioneering outsourcing company based in the
                 Philippines, dedicated to connecting top-tier talent from across
                 the globe with forward-thinking companies worldwide. Our mission
@@ -41,7 +41,7 @@ const About = () => {
                 businesses.
               </p>
               <br />
-              <p className="text-sub-feature">
+              <p className="text-sub-feature text-black dark:text-white">
                 Founded on the principles of excellence and global
                 collaboration, Niedrotech has emerged as a leader in the
                 outsourcing industry. Our roots in the Philippines, a country
@@ -141,7 +141,7 @@ const About = () => {
               <h2 className="text-section-title relative mb-6 font-medium text-black dark:text-white">
                 Our Mission
               </h2>
-              <p className="text-sub-feature">
+              <p className="text-sub-feature text-black dark:text-white">
                 To deliver top-notch IT solutions that empower businesses to
                 achieve their goals.
               </p>
@@ -177,7 +177,7 @@ const About = () => {
               <h2 className="text-section-title relative mb-6 font-medium text-black dark:text-white">
                 Our Vision
               </h2>
-              <p className="text-sub-feature">
+              <p className="text-sub-feature text-black dark:text-white">
                 To be the most trusted and innovative BPO IT service provider
                 globally.
               </p>
@@ -274,7 +274,7 @@ const About = () => {
               <h2 className="text-section-title relative mb-6 font-medium text-black dark:text-white">
                 Our Values
               </h2>
-              {/* <p className="text-sub-feature">
+              {/* <p className="text-sub-feature text-black dark:text-white">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
                 ultricies lacus non fermentum ultrices. Fusce consectetur le.
               </p> */}
@@ -286,14 +286,14 @@ const About = () => {
                   </p>
                 </div>
                 <div className="w-3/4">
-                  <h3 className="text-sub-feature mb-0.5 text-black dark:text-white">
+                  <h3 className="text-sub-feature mb-1 font-semibold text-black dark:text-white">
                     Commitment to Excellence
                   </h3>
-                  <>
+                  <p className="text-black dark:text-white">
                     We strive for the highest quality in everything we do, from
                     our products and services to our customer interactions. We
                     are relentless in our pursuit of continuous improvement.
-                  </>
+                  </p>
                 </div>
               </div>
               <div className="mt-7.5 flex items-center gap-5">
@@ -303,10 +303,10 @@ const About = () => {
                   </p>
                 </div>
                 <div className="w-3/4">
-                  <h3 className="text-sub-feature mb-0.5 text-black dark:text-white">
+                  <h3 className="text-sub-feature mb-1 font-semibold text-black dark:text-white">
                     Customer Satisfaction
                   </h3>
-                  <p>
+                  <p className="text-black dark:text-white">
                     Your satisfaction is our top priority. We listen to your
                     needs and feedback to ensure we are exceeding your
                     expectations and building lasting relationships.
@@ -320,10 +320,10 @@ const About = () => {
                   </p>
                 </div>
                 <div className="w-3/4">
-                  <h3 className="text-sub-feature mb-0.5 text-black dark:text-white">
+                  <h3 className="text-sub-feature mb-1 font-semibold text-black dark:text-white">
                     Integrity
                   </h3>
-                  <p>
+                  <p className="text-black dark:text-white">
                     We foster a culture of creativity and embrace new ideas. We
                     are constantly looking for ways to improve our offerings and
                     stay ahead of the curve.
@@ -337,10 +337,10 @@ const About = () => {
                   </p>
                 </div>
                 <div className="w-3/4">
-                  <h3 className="text-sub-feature mb-0.5 text-black dark:text-white">
+                  <h3 className="text-sub-feature mb-1 font-semibold text-black dark:text-white">
                     Innovation
                   </h3>
-                  <p>
+                  <p className="text-black dark:text-white">
                     We conduct ourselves with honesty, transparency, and ethical
                     behavior in all situations. We hold ourselves accountable to
                     the highest standards.
@@ -354,10 +354,10 @@ const About = () => {
                   </p>
                 </div>
                 <div className="w-3/4">
-                  <h3 className="text-sub-feature mb-0.5 text-black dark:text-white">
+                  <h3 className="text-sub-feature mb-1 font-semibold text-black dark:text-white">
                     Teamwork
                   </h3>
-                  <p>
+                  <p className="text-black dark:text-white">
                     We believe in the power of collaboration. We work together
                     effectively to achieve our goals, leveraging the diverse
                     strengths and perspectives of our team members.

@@ -4,7 +4,6 @@ import Image from "next/image";
 import React from "react";
 
 const Contact = () => {
-
   const [hasMounted, setHasMounted] = React.useState(false);
   React.useEffect(() => {
     setHasMounted(true);
@@ -34,7 +33,7 @@ const Contact = () => {
             />
           </div>
 
-          <div className="flex flex-col-reverse flex-wrap gap-8 md:flex-row md:flex-nowrap md:justify-between xl:gap-20">
+          <div className="flex flex-col flex-wrap gap-8 md:flex-row md:flex-nowrap md:justify-between xl:gap-20">
             <motion.div
               variants={{
                 hidden: {
@@ -51,16 +50,17 @@ const Contact = () => {
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_top w-full rounded-lg bg-white p-7.5 dark:border dark:border-strokedark dark:bg-black md:w-3/5 lg:w-3/4 xl:p-15"
+              className="animate_top w-full rounded-lg bg-transparent p-0 dark:border-strokedark dark:bg-transparent md:w-3/5 md:p-7.5 lg:w-3/4 xl:p-15"
             >
-              <h1 className="mb-15 text-section-title font-medium text-black dark:text-white">
+              <h1 className="text-contact-title mb-5 font-medium text-black dark:text-white">
                 Contact Us
               </h1>
 
-              <p className="mb-7.5 text-sub-hero text-black dark:text-white">
-              If you need professional assistance in assembling an offshore team 
-              of premium talent to work for you, we are ready to help you. Our expert 
-              consultants will respond to your enquiries right away.
+              <p className="text-sub-hero mb-7.5 text-black dark:text-white">
+                If you need professional assistance in assembling an offshore
+                team of premium talent to work for you, we are ready to help
+                you. Our expert consultants will respond to your enquiries right
+                away.
               </p>
 
               <form
@@ -110,7 +110,7 @@ const Contact = () => {
                       type="checkbox"
                       className="peer sr-only"
                     />
-                    <span className="border-gray-400 bg-gray-400 text-blue-600 dark:border-gray-600 dark:bg-gray-700 group mt-2 flex h-5 min-w-[20px] items-center justify-center rounded peer-checked:bg-primary">
+                    <span className="group mt-2 flex h-5 min-w-[20px] items-center justify-center rounded border-gray-400 bg-gray-400 text-blue-600 peer-checked:bg-primary dark:border-gray-600 dark:bg-gray-700">
                       <svg
                         className="opacity-0 peer-checked:group-[]:opacity-100"
                         width="10"
@@ -137,7 +137,7 @@ const Contact = () => {
 
                   <button
                     aria-label="send message"
-                    className="inline-flex items-center gap-2.5 rounded-full bg-red px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-redho dark:bg-btnred"
+                    className="dark:bg-btnred inline-flex items-center gap-2.5 rounded-full bg-red px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-redho"
                   >
                     Send
                     <svg
@@ -176,23 +176,28 @@ const Contact = () => {
               viewport={{ once: true }}
               className="animate_top w-full md:w-2/5 md:p-7.5 lg:w-[26%] xl:pt-15"
             >
-              {/* <h2 className="mb-12.5 text-sectiontitle4 font-medium text-black dark:text-white">
-                Additional information
-              </h2> */}
+              <h2 className="my-12.5 text-sectiontitle4 font-medium text-black dark:text-white">
+                Additional Information
+              </h2>
 
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Our Locations
                 </h3>
-                <p className="py-5">Twin Oaks Place Tower 1 40-M 750 Shaw Blvd, Mandaluyong, 1554 Metro Manila</p>
-                <p className="py-5">24 Stella Maris Ave, Maybunga, Pasig, 1607 Metro Manila</p>
+                <p className="pb-5">
+                  Twin Oaks Place Tower 1 40-M 750 Shaw Blvd, Mandaluyong, 1554
+                  Metro Manila
+                </p>
+                <p className="pb-5">
+                  24 Stella Maris Ave, Maybunga, Pasig, 1607 Metro Manila
+                </p>
               </div>
-              <div className="5 mb-7">
+              <div className="mb-7 pb-5">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Email Address
                 </h3>
                 <p>
-                  <a href="#">hello@niedrotech.com</a>
+                  <a href="mailto:hello@niedrotech.com">hello@niedrotech.com</a>
                 </p>
               </div>
               <div>
@@ -200,7 +205,7 @@ const Contact = () => {
                   Phone Number
                 </h4>
                 <p>
-                  <a href="#">+63 966 613 7344</a>
+                  <p>+63 966 613 7344</p>
                 </p>
               </div>
             </motion.div>

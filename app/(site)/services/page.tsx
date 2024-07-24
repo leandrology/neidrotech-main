@@ -15,16 +15,16 @@ const ServicesPage = async () => {
       {/* <!-- ===== Blog Grid Start ===== --> */}
       <section className="py-20 lg:py-25 xl:py-30">
         <div className="mx-auto mt-15 max-w-c-1280 px-4 md:px-8 xl:mt-20 xl:px-0">
-          <div className="pb-10">
-            <SectionHeader
+          {/* <div className="pb-10"> */}
+          {/* <SectionHeader
               headerInfo={{
                 title: "Services",
-                subtitle: "Empower your Business with Our Managed Services",
+                subtitle: "Empower Your Business",
                 subtitle2: "",
                 description: `We’ll match you with amazing staff, mobilize the team, and help you manage performance.`,
               }}
             />
-          </div>
+          </div> */}
           <Services />
         </div>
       </section>

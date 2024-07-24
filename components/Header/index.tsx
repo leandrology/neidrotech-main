@@ -11,6 +11,11 @@ const Header = () => {
   const [navigationOpen, setNavigationOpen] = useState(false);
   const [dropdownToggler, setDropdownToggler] = useState(false);
   const [stickyMenu, setStickyMenu] = useState(false);
+  const [openSubmenu, setOpenSubmenu] = useState<string | null>(null);
+
+  const toggleSubmenu = (title: string) => {
+    setOpenSubmenu((prevState) => (prevState === title ? null : title));
+  };
 
   const pathUrl = usePathname();
 
@@ -109,8 +114,11 @@ const Header = () => {
                   {menuItem.submenu ? (
                     <>
                       <button
-                        onClick={() => setDropdownToggler(!dropdownToggler)}
-                        className="flex cursor-pointer items-center justify-between gap-3 hover:text-primary"
+                        className={`flex cursor-pointer items-center justify-between gap-3 ${
+                          pathUrl === menuItem.path
+                            ? "text-primary hover:text-primary"
+                            : "hover:text-primary"
+                        }`}
                       >
                         <Link
                           onClick={() => setNavigationOpen(false)}
@@ -120,7 +128,7 @@ const Header = () => {
                           {" "}
                           {menuItem.title}{" "}
                         </Link>
-                        <span>
+                        <span onClick={() => toggleSubmenu(menuItem.title)}>
                           <svg
                             className="h-3 w-3 cursor-pointer fill-waterloo group-hover:fill-primary"
                             xmlns="http://www.w3.org/2000/svg"
@@ -132,7 +140,9 @@ const Header = () => {
                       </button>
 
                       <ul
-                        className={`dropdown ${dropdownToggler ? "flex" : ""}`}
+                        className={`dropdown ${
+                          openSubmenu === menuItem.title ? "flex" : ""
+                        }`}
                       >
                         {menuItem.submenu.map((item, key) => (
                           <li
@@ -142,6 +152,11 @@ const Header = () => {
                             <Link
                               href={item.path || "#"}
                               onClick={() => setNavigationOpen(false)}
+                              className={
+                                pathUrl === item.path
+                                  ? "text-primary hover:text-primary"
+                                  : "hover:text-primary"
+                              }
                             >
                               {item.title}
                             </Link>

@@ -29,7 +29,7 @@ const servicesData: Services[] = [
     _id: 4,
     slug: "performance-management",
     mainImage: "/images/blog/blog-03.png",
-    title: "Performance Management & Payroll Processing",
+    title: "Performance & Payroll Management",
     metadata:
       "Maximizing your global talent's effectiveness with regular performance checks and simplified wage disbursement.",
   },

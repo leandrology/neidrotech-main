@@ -25,7 +25,7 @@ const TeamContact = () => {
             />
           </div>
 
-          <div className="flex flex-col-reverse flex-wrap gap-8 md:flex-row md:flex-nowrap md:justify-between xl:gap-20">
+          <div className="mb-5 flex flex-col-reverse flex-wrap gap-8 md:mb-0 md:flex-row md:flex-nowrap md:justify-between xl:gap-20">
             <motion.div
               variants={{
                 hidden: {
@@ -42,9 +42,9 @@ const TeamContact = () => {
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_top w-full rounded-lg bg-white p-7.5 dark:border dark:border-strokedark dark:bg-black md:w-3/5 lg:w-3/4 xl:p-15"
+              className="animate_top w-full rounded-lg bg-transparent p-0 dark:border-strokedark dark:bg-transparent md:w-3/5 md:p-7.5 lg:w-3/4 xl:p-15"
             >
-              <h1 className="mb-15 text-4xl font-medium text-black dark:text-white xl:text-7xl">
+              <h1 className="text-contact-title mb-10 font-medium text-black dark:text-white xl:text-7xl">
                 Contact Us
               </h1>
 
@@ -133,8 +133,8 @@ const TeamContact = () => {
                     aria-label="send message"
                     className="dark:bg-btnred inline-flex items-center gap-2.5 rounded-full bg-red px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-redho"
                   >
-                    Talk to us now
-                    {/* <svg
+                    Send
+                    <svg
                       className="fill-white"
                       width="14"
                       height="14"
@@ -146,7 +146,7 @@ const TeamContact = () => {
                         d="M10.4767 6.16664L6.00668 1.69664L7.18501 0.518311L13.6667 6.99998L7.18501 13.4816L6.00668 12.3033L10.4767 7.83331H0.333344V6.16664H10.4767Z"
                         fill=""
                       />
-                    </svg> */}
+                    </svg>
                   </button>
                 </div>
               </form>
@@ -182,7 +182,7 @@ const TeamContact = () => {
                   aria-label="book-a-meeting"
                   className="dark:bg-btnred inline-flex items-center gap-2.5 rounded-full bg-red px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-redho"
                 >
-                  Book a meeting now
+                  <Link href="/contact">Book a meeting now </Link>
                 </button>
               </div>
             </motion.div>

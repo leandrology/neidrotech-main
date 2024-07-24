@@ -53,7 +53,7 @@ const FAQ = () => {
               {/* <span className="font-medium uppercase text-black dark:text-white">
                 OUR FAQS
               </span> */}
-              <h2 className="text-section-title mb-0 text-center font-medium text-black dark:text-white md:text-left">
+              <h2 className="text-section-title m-[19px] mb-0 text-center font-medium text-black dark:text-white md:text-left">
                 Frequently Asked Questions
               </h2>
 

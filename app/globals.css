@@ -176,6 +176,18 @@ pre {
   line-height: 85px;
 }
 
+.text-contact-title {
+  font-weight: 400;
+  font-size: 5vw;
+  line-height: 85px;
+}
+
+.text-hid-title {
+  font-weight: 400;
+  font-size: 4vw;
+  line-height: 85px;
+}
+
 .text-feature-title {
   font-size: 27px;
 }
@@ -186,7 +198,7 @@ pre {
 
 .text-sub-feature {
   font-size: 1vw;
-  line-height: 30px;
+  line-height: 22px;
 }
 
 .text-sub-how {
@@ -228,17 +240,29 @@ pre {
 
   .text-sub-hero {
     font-size: 4vw;
-    line-height: 30px;
+    line-height: 22px;
   }
   
   .text-sub-hero-xl {
       font-size: 5.5vw;
-      margin-top: 139px;
+      margin-top: 100px;
       line-height: 29px;
   }
 
   .text-section-title {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1;
+  }
+
+  .text-contact-title {
+    font-size: 2.75rem;
+    font-weight: 600;
+    line-height: 1;
+  }
+
+  .text-hid-title {
+    font-size: 1.7rem;
     font-weight: 600;
     line-height: 1;
   }

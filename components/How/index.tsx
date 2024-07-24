@@ -35,9 +35,8 @@ const How = () => {
                 viewport={{ once: true }}
                 className="animate_left mx-auto md:text-center"
               >
-                <h1 className="text-section-title xs:mx-10 mb-5 text-center text-black dark:text-white">
-                  <span className="leading-tight"> Leverage Global </span>{" "}
-                  Talents
+                <h1 className="text-hid-title mb-5 text-left text-[4vw] text-black dark:text-white">
+                  Leverage <span className="text-primary">Global Talents </span>
                 </h1>
               </motion.div>
               <motion.div
@@ -56,11 +55,14 @@ const How = () => {
                 whileInView="visible"
                 transition={{ duration: 1, delay: 0.1 }}
                 viewport={{ once: true }}
-                className="animate_top mx-10"
+                className="animate_top mx-auto"
               >
-                <p className="text-sub-hero text-center text-black dark:text-white">
-                  Experience a seamless transition with our well-defined process
-                  for onboarding premium talent.
+                <p className="text-sub-hero text-left text-black dark:text-white">
+                  Experience a seamless transition as we streamline the
+                  onboarding process, swiftly matching you with top-tier talent
+                  who perfectly align with your project needs. Our well-defined
+                  system ensures efficient integration and rapid productivity
+                  gains.
                 </p>
               </motion.div>
             </div>
@@ -151,11 +153,12 @@ const How = () => {
               viewport={{ once: true }}
               className="animate_right md:text-center"
             >
-              <h1 className="mx-10 mt-5 pb-2 pt-5 text-center text-4xl text-black dark:text-white md:text-6xl xl:w-full">
-                From detailed planning to peak execution
+              <h1 className="text-hid-title mx-auto mt-10 pb-2 pt-5 text-center text-black dark:text-white md:text-6xl xl:w-full">
+                Planning to Execution
               </h1>
-              <p className="text-sub-hero mx-10 pb-5 text-center text-black dark:text-white">
-                Our streamlined process guides your success:
+              <p className="text-sub-hero mx-auto pb-5 text-center text-black dark:text-white">
+                Our streamlined process ensures a smooth path to your project
+                goals.
               </p>
               {/* <p className="text-sub-hero xs:text-left mx-auto mt-5 pb-2 text-black dark:text-white xl:w-full">
             Our streamlined process guides your success:
@@ -179,7 +182,7 @@ const How = () => {
               viewport={{ once: true }}
               className="animate_right text-center"
             >
-              <div className="text-sub-hero mt-10 grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:mt-0 lg:grid-cols-4 xl:mt-0 xl:gap-12.5">
+              <div className="text-sub-hero mt-0 grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:mt-0 lg:grid-cols-2 xl:mt-0 xl:gap-12.5">
                 {howData.map((How, key) => (
                   <SingleHow how={How} key={key} />
                 ))}
@@ -210,13 +213,62 @@ const How = () => {
               viewport={{ once: true }}
               className="animate_left md:w-1/2"
             >
-              <h2 className="mt-5 pb-2 pt-5 text-center text-4xl text-black dark:text-white md:text-6xl xl:w-full">
-                Initial Meeting
+              <h2 className="text-section-title relative mb-6 font-medium text-black dark:text-white">
+                Project Consultation
               </h2>
-              <p className="text-sub-feature mt-5 pb-2 pt-5 text-center text-black dark:text-white xl:w-full">
+              <p className="text-sub-feature text-black dark:text-white">
                 We'll start by gathering all your project requirements to
                 determine the exact scope and limitations.
               </p>
+
+              <div className="mt-7.5 flex items-center gap-5">
+                <div className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
+                  <p className="text-metatitle2 font-semibold text-black dark:text-white">
+                    -
+                  </p>
+                </div>
+                <div className="w-3/4">
+                  <h3 className="text-sub-feature mb-0.5 font-semibold text-black dark:text-white">
+                    Comprehensive Assessment
+                  </h3>
+                  <p className="text-black dark:text-white">
+                    A deep dive into your business operations to pinpoint
+                    specific needs and opportunities for growth.
+                  </p>
+                </div>
+              </div>
+              <div className="mt-7.5 flex items-center gap-5">
+                <div className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
+                  <p className="text-metatitle2 font-semibold text-black dark:text-white">
+                    -
+                  </p>
+                </div>
+                <div className="w-3/4">
+                  <h3 className="text-sub-feature mb-0.5 font-semibold text-black dark:text-white">
+                    Strategic Goal Alignment
+                  </h3>
+                  <p className="text-black dark:text-white">
+                    Clearly defining your objectives and translating them into
+                    actionable project plans.
+                  </p>
+                </div>
+              </div>
+              <div className="mt-7.5 flex items-center gap-5">
+                <div className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
+                  <p className="text-metatitle2 font-semibold text-black dark:text-white">
+                    -
+                  </p>
+                </div>
+                <div className="w-3/4">
+                  <h3 className="text-sub-feature mb-0.5 font-semibold text-black dark:text-white">
+                    Collaborative Visioning
+                  </h3>
+                  <p className="text-black dark:text-white">
+                    Fostering open communication and teamwork to create a
+                    unified roadmap for project success.
+                  </p>
+                </div>
+              </div>
             </motion.div>
             <motion.div
               variants={{
@@ -305,15 +357,64 @@ const How = () => {
               viewport={{ once: true }}
               className="animate_right md:w-1/2"
             >
-              <h2 className="mt-5 pb-2 pt-5 text-center text-4xl text-black dark:text-white md:text-6xl xl:w-full">
-                Recruitment Meeting
+              <h2 className="text-section-title relative mb-6 font-medium text-black dark:text-white">
+                Talent Acquisition
               </h2>
-              <p className="text-sub-feature mt-5 pb-2 pt-5 text-center text-black dark:text-white xl:w-full">
+              <p className="text-sub-feature text-black dark:text-white">
                 Quality is our priority. The more details you provide about your
-                project, the better we can tailor our recruitment approach. This
-                meticulous process is how we guarantee you find the best talent
-                available.
+                project, the better we can tailor our recruitment approach.{" "}
+                <br /> This meticulous process is how we guarantee you find the
+                best talent available.
               </p>
+
+              <div className="mt-7.5 flex items-center gap-5">
+                <div className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
+                  <p className="text-metatitle2 font-semibold text-black dark:text-white">
+                    -
+                  </p>
+                </div>
+                <div className="w-3/4">
+                  <h3 className="text-sub-feature mb-0.5 font-semibold text-black dark:text-white">
+                    Comprehensive Talent Evaluation
+                  </h3>
+                  <p className="text-black dark:text-white">
+                    Thoroughly evaluating candidates' skills, experience, and
+                    cultural fit for your team.
+                  </p>
+                </div>
+              </div>
+              <div className="mt-7.5 flex items-center gap-5">
+                <div className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
+                  <p className="text-metatitle2 font-semibold text-black dark:text-white">
+                    -
+                  </p>
+                </div>
+                <div className="w-3/4">
+                  <h3 className="text-sub-feature mb-0.5 font-semibold text-black dark:text-white">
+                    Targeted Talent Acquisition
+                  </h3>
+                  <p className="text-black dark:text-white">
+                    Leveraging our industry expertise to find top-tier
+                    professionals who align with your business goals.
+                  </p>
+                </div>
+              </div>
+              <div className="mt-7.5 flex items-center gap-5">
+                <div className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
+                  <p className="text-metatitle2 font-semibold text-black dark:text-white">
+                    -
+                  </p>
+                </div>
+                <div className="w-3/4">
+                  <h3 className="text-sub-feature mb-0.5 font-semibold text-black dark:text-white">
+                    Rapid Talent Deployment
+                  </h3>
+                  <p className="text-black dark:text-white">
+                    Streamlining the onboarding process to quickly integrate new
+                    hires and maximize productivity.
+                  </p>
+                </div>
+              </div>
             </motion.div>
           </div>
         </div>
@@ -340,14 +441,63 @@ const How = () => {
               viewport={{ once: true }}
               className="animate_left md:w-1/2"
             >
-              <h2 className="mt-5 pb-2 pt-5 text-center text-4xl text-black dark:text-white md:text-6xl xl:w-full">
-                Talent Integration
+              <h2 className="text-section-title relative mb-6 font-medium text-black dark:text-white">
+                Team Onboarding
               </h2>
-              <p className="text-sub-feature mt-5 pb-2 pt-5 text-center text-black dark:text-white xl:w-full">
+              <p className="text-sub-feature text-black dark:text-white">
                 Don't worry about onboarding. We leverage our extensive
                 experience to seamlessly integrate new team members into your
                 operations, minimizing disruption and maximizing productivity.
               </p>
+
+              <div className="mt-7.5 flex items-center gap-5">
+                <div className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
+                  <p className="text-metatitle2 font-semibold text-black dark:text-white">
+                    -
+                  </p>
+                </div>
+                <div className="w-3/4">
+                  <h3 className="text-sub-feature mb-0.5 font-semibold text-black dark:text-white">
+                    Customized Onboarding Process
+                  </h3>
+                  <p className="text-black dark:text-white">
+                    Tailoring the onboarding process to match individual
+                    learning styles and career goals.
+                  </p>
+                </div>
+              </div>
+              <div className="mt-7.5 flex items-center gap-5">
+                <div className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
+                  <p className="text-metatitle2 font-semibold text-black dark:text-white">
+                    -
+                  </p>
+                </div>
+                <div className="w-3/4">
+                  <h3 className="text-sub-feature mb-0.5 font-semibold text-black dark:text-white">
+                    Full Resource Support
+                  </h3>
+                  <p className="text-black dark:text-white">
+                    Equipping new hires with all necessary tools, training
+                    materials, and access to company resources.
+                  </p>
+                </div>
+              </div>
+              <div className="mt-7.5 flex items-center gap-5">
+                <div className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
+                  <p className="text-metatitle2 font-semibold text-black dark:text-white">
+                    -
+                  </p>
+                </div>
+                <div className="w-3/4">
+                  <h3 className="text-sub-feature mb-0.5 font-semibold text-black dark:text-white">
+                    Collaborative Team Integration
+                  </h3>
+                  <p className="text-black dark:text-white">
+                    Facilitating seamless interaction between new and existing
+                    team members to foster a supportive work environment.
+                  </p>
+                </div>
+              </div>
             </motion.div>
             <motion.div
               variants={{
@@ -436,15 +586,67 @@ const How = () => {
               viewport={{ once: true }}
               className="animate_right md:w-1/2"
             >
-              <h2 className="mt-5 pb-2 pt-5 text-center text-4xl text-black dark:text-white md:text-6xl xl:w-full">
-                Performance Tracker
+              <h2 className="text-section-title relative mb-6 font-medium text-black dark:text-white">
+                Performance Tracking
               </h2>
-              <p className="text-sub-feature mt-5 pb-2 pt-5 text-center text-black dark:text-white xl:w-full">
+              <p className="text-sub-feature text-black dark:text-white">
                 Your team's success is our success. We go beyond just finding
                 talent. Our commitment to ongoing assessment and feedback helps
                 your outsourced team continuously improve and deliver peak
                 performance.
               </p>
+
+              <div className="mt-7.5 flex items-center gap-5">
+                <div className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
+                  <p className="text-metatitle2 font-semibold text-black dark:text-white">
+                    -
+                  </p>
+                </div>
+                <div className="w-3/4">
+                  <h3 className="text-sub-feature mb-0.5 font-semibold text-black dark:text-white">
+                    Commitment to Excellence
+                  </h3>
+                  <p className="text-black dark:text-white">
+                    We strive for the highest quality in everything we do, from
+                    our products and services to our customer interactions. We
+                    are relentless in our pursuit of continuous improvement.
+                  </p>
+                </div>
+              </div>
+              <div className="mt-7.5 flex items-center gap-5">
+                <div className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
+                  <p className="text-metatitle2 font-semibold text-black dark:text-white">
+                    -
+                  </p>
+                </div>
+                <div className="w-3/4">
+                  <h3 className="text-sub-feature mb-0.5 font-semibold text-black dark:text-white">
+                    Customer Satisfaction
+                  </h3>
+                  <p className="text-black dark:text-white">
+                    Your satisfaction is our top priority. We listen to your
+                    needs and feedback to ensure we are exceeding your
+                    expectations and building lasting relationships.
+                  </p>
+                </div>
+              </div>
+              <div className="mt-7.5 flex items-center gap-5">
+                <div className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
+                  <p className="text-metatitle2 font-semibold text-black dark:text-white">
+                    -
+                  </p>
+                </div>
+                <div className="w-3/4">
+                  <h3 className="text-sub-feature mb-0.5 font-semibold text-black dark:text-white">
+                    Integrity
+                  </h3>
+                  <p className="text-black dark:text-white">
+                    We foster a culture of creativity and embrace new ideas. We
+                    are constantly looking for ways to improve our offerings and
+                    stay ahead of the curve.
+                  </p>
+                </div>
+              </div>
             </motion.div>
           </div>
         </div>

@@ -10,6 +10,56 @@ const Services = async () => {
     <div>
       <section className="pb-10 pt-0 lg:py-2 xl:pb-15 xl:pt-0">
         <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
+          <div className="xs:text-center">
+            <motion.div
+              variants={{
+                hidden: {
+                  opacity: 0,
+                  x: -20,
+                },
+
+                visible: {
+                  opacity: 1,
+                  x: 0,
+                },
+              }}
+              initial="hidden"
+              whileInView="visible"
+              transition={{ duration: 1, delay: 0.1 }}
+              viewport={{ once: true }}
+              className="animate_left mx-auto md:text-center"
+            >
+              <h1 className="text-hid-title mb-5 text-left text-[4vw] text-black dark:text-white">
+                Empower <span className="text-primary">Your Business </span>
+              </h1>
+            </motion.div>
+            <motion.div
+              variants={{
+                hidden: {
+                  opacity: 0,
+                  y: -20,
+                },
+
+                visible: {
+                  opacity: 1,
+                  y: 0,
+                },
+              }}
+              initial="hidden"
+              whileInView="visible"
+              transition={{ duration: 1, delay: 0.1 }}
+              viewport={{ once: true }}
+              className="animate_top mx-auto"
+            >
+              <p className="text-sub-hero text-left text-black dark:text-white">
+                We'll match you with top-tier talent perfectly suited for your
+                project, swiftly assemble a high-performing team, and provide
+                ongoing support to optimize performance. Our goal is to ensure
+                your team seamlessly integrates into your business, driving
+                results and achieving your project objectives.
+              </p>
+            </motion.div>
+          </div>
           {/* <!-- Section Title Start --> */}
           <div className="animate_top mx-auto text-center">
             <motion.div
@@ -30,7 +80,7 @@ const Services = async () => {
               viewport={{ once: true }}
               className="animate_right text-left"
             >
-              <h1 className="text-hid-title mx-auto mt-5 pb-5 pt-0 text-black dark:text-white xl:w-full">
+              <h1 className="text-hid-title mx-auto mt-5 pb-5 pt-10 text-black dark:text-white md:pt-20 xl:w-full">
                 Managed Services Advantage
               </h1>
               <p className="text-sub-hero mx-auto text-black dark:text-white md:w-full">

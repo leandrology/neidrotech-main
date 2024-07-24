@@ -132,11 +132,6 @@ pre {
   @apply bg-stroke text-black dark:bg-blackho dark:text-white;
 }
 
-/* NAV */
-
-.nav-title {
-  text-shadow: 0px 3px 5px #303030cf;
-}
 
 /* HERO IMAGE */
 
@@ -255,7 +250,7 @@ pre {
   }
 
   .text-section-title {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 600;
     line-height: 1;
   }
@@ -267,7 +262,7 @@ pre {
   }
 
   .text-hid-title {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 600;
     line-height: 1;
   }

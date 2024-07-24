@@ -46,7 +46,7 @@ const Footer = () => {
                   />
                 </a>
 
-                <p className="mb-10 mt-0 text-[15px] text-black dark:text-white">
+                <p className="mb-10 mt-0 text-black dark:text-white">
                   Bridging Global Talent with World-Class Companies.
                 </p>
 

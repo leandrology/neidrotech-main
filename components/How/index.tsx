@@ -13,7 +13,7 @@ const How = () => {
       <section className="overflow-hidden pb-10 pt-10 md:pt-0 xl:pb-10">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="xs:pb-20 flex lg:items-center lg:gap-8 xl:gap-32.5 xl:pb-20">
-            <div className="xs:text-center md:w-3/4">
+            <div className="xs:text-center md:w-1/2">
               {/* <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white">
                  Niedrotech - Your trusted IT partner
               </h4> */}
@@ -36,7 +36,7 @@ const How = () => {
                 className="animate_left mx-auto md:text-center"
               >
                 <h1 className="text-hid-title mb-5 text-left text-[4vw] text-black dark:text-white">
-                  Leverage <span className="text-primary">Global Talents </span>
+                  Leverage Global Talents
                 </h1>
               </motion.div>
               <motion.div
@@ -67,7 +67,7 @@ const How = () => {
               </motion.div>
             </div>
 
-            <div className="animate_right hidden md:w-1/4 lg:block">
+            <div className="animate_right hidden md:w-1/2 lg:block">
               <div className="relative 2xl:-mr-7.5">
                 <motion.div
                   variants={{
@@ -101,30 +101,17 @@ const How = () => {
                   height={246}
                   className="absolute -left-11.5 top-0"
                 /> */}
-                  <Image
-                    src="/images/shape/shape-02.svg"
-                    alt="shape"
-                    width={36.9}
-                    height={36.7}
-                    className="absolute bottom-0 right-0 z-10"
-                  />
-                  <Image
-                    src="/images/shape/shape-03.svg"
-                    alt="shape"
-                    width={21.64}
-                    height={21.66}
-                    className="absolute -right-6.5 bottom-0 z-1"
-                  />
-                  <div className="relative aspect-square w-full">
+
+                  <div className="relative aspect-[4/3] w-full max-w-[575px]">
                     <Image
-                      className="dark:hidden"
-                      src="/images/shape/shape-04.png"
+                      className="rounded-lg dark:hidden"
+                      src="/images/how/how-01.jpg"
                       alt="Guy in balloon"
                       fill
                     />
                     <Image
-                      className="hidden dark:block"
-                      src="/images/shape/shape-04.png"
+                      className="hidden rounded-lg dark:block"
+                      src="/images/how/how-01.jpg"
                       alt="Guy in balloon"
                       fill
                     />
@@ -214,7 +201,7 @@ const How = () => {
               className="animate_left md:w-1/2"
             >
               <h2 className="text-section-title relative mb-6 font-medium text-black dark:text-white">
-                Project Consultation
+                Introductory Meeting
               </h2>
               <p className="text-sub-feature text-black dark:text-white">
                 We'll start by gathering all your project requirements to
@@ -286,18 +273,18 @@ const How = () => {
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_right relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
+              className="animate_right relative mx-auto aspect-[562/366] max-w-[550px] md:block md:w-1/2"
             >
               <Image
-                src="./images/about/about-light-02.svg"
+                src="/images/how/how-02.jpg"
                 alt="About"
-                className="dark:hidden"
+                className="rounded-lg dark:hidden"
                 fill
               />
               <Image
-                src="./images/about/about-dark-02.svg"
+                src="/images/how/how-02.jpg"
                 alt="About"
-                className="hidden dark:block"
+                className="hidden rounded-lg dark:block"
                 fill
               />
             </motion.div>
@@ -324,16 +311,16 @@ const How = () => {
               whileInView="visible"
               transition={{ duration: 0.5, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_left relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
+              className="animate_left relative mx-auto aspect-[562/366] max-w-[550px] md:block md:w-1/2"
             >
               <Image
-                src="/images/about/about-light-01.png"
+                src="/images/how/how-03.jpg"
                 alt="About"
-                className="dark:hidden"
+                className="rounded-lg dark:hidden"
                 fill
               />
               <Image
-                src="/images/about/about-dark-01.png"
+                src="/images/how/how-03.jpg"
                 alt="About"
                 className="hidden dark:block"
                 fill
@@ -515,16 +502,16 @@ const How = () => {
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_right relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
+              className="animate_right relative mx-auto aspect-[562/366] max-w-[550px] md:block md:w-1/2"
             >
               <Image
-                src="./images/about/about-light-02.svg"
+                src="/images/how/how-04.jpg"
                 alt="About"
-                className="dark:hidden"
+                className="rounded-lg dark:hidden"
                 fill
               />
               <Image
-                src="./images/about/about-dark-02.svg"
+                src="/images/how/how-04.jpg"
                 alt="About"
                 className="hidden dark:block"
                 fill
@@ -553,16 +540,16 @@ const How = () => {
               whileInView="visible"
               transition={{ duration: 0.5, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_left relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
+              className="animate_left relative mx-auto aspect-[562/366] max-w-[550px] md:block md:w-1/2"
             >
               <Image
-                src="/images/about/about-light-01.png"
+                src="/images/how/how-05.jpg"
                 alt="About"
-                className="dark:hidden"
+                className="rounded-lg dark:hidden"
                 fill
               />
               <Image
-                src="/images/about/about-dark-01.png"
+                src="/images/how/how-05.jpg"
                 alt="About"
                 className="hidden dark:block"
                 fill

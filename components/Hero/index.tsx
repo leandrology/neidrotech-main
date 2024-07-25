@@ -38,7 +38,7 @@ const Hero = () => {
                 className="animate_left"
               >
                 <h1 className="text-section-title xl:text-section-title mx-auto mb-4 font-medium text-black dark:text-white md:w-4/5 xl:w-full">
-                  Innovation <span className="text-primary">Fuels Future </span>
+                  Global <span className="text-primary"> Talent Network</span>
                 </h1>
                 {/* <h1 className="mb-5 text-center text-hero text-black dark:text-white xl:pb-5">
                   Innovation <span className="text-primary">Fuels Future </span>
